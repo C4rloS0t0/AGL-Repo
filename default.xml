@@ -17,12 +17,7 @@
 
   <!-- AGL things. -->
   <project name="meta-agl" path="meta-agl" />
-  <project name="meta-agl-demo" path="meta-agl-demo" >
-    <!-- Emulator specific things. -->
-    <linkfile dest="conf/emulator/local.conf.sample" src="conf/local.conf.sample" />
-    <linkfile dest="conf/emulator/bblayers.conf.sample" src="conf/bblayers.conf.sample" />
-    <linkfile dest="conf/emulator/conf-notes.txt" src="conf/conf-notes.txt" />
-  </project>
+  <project name="meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="poky" revision="df87cb27efeaea1455f20692f9f1397c6fcab254" />
@@ -32,10 +27,6 @@
   <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="adeca0db212d61a933d7952ad44ea1064cfca747" />
 
   <!-- Porter specific things. -->
-  <project name="meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" >
-    <linkfile dest="conf/porter/local.conf.sample" src="meta-rcar-gen2/conf/local.conf.sample" />
-    <linkfile dest="conf/porter/bblayers.conf.sample" src="meta-rcar-gen2/conf/bblayers.conf.sample" />
-    <linkfile dest="conf/porter/conf-notes.txt" src="meta-rcar-gen2/conf/conf-notes.txt" />
-  </project>
+  <project name="meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
 
 </manifest>
