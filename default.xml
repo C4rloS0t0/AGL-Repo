@@ -2,8 +2,8 @@
 <manifest>
 
   <remote name="agl"
-          fetch="https://gerrit.automotivelinux.org/gerrit/AGL"
-          review="https://gerrit.automotivelinux.org/gerrit/" />
+          fetch="https://gerrit.automotivelinux.org/gerrit/"
+          review="ssh://gerrit.automotivelinux.org:29418/" />
   <remote name="poky"
           fetch="git://git.yoctoproject.org/" />
   <remote name="openembedded"
@@ -16,8 +16,8 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="meta-agl" path="meta-agl" />
-  <project name="meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="poky" revision="df87cb27efeaea1455f20692f9f1397c6fcab254" />
@@ -27,6 +27,6 @@
   <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="adeca0db212d61a933d7952ad44ea1064cfca747" />
 
   <!-- Porter specific things. -->
-  <project name="meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
+  <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
 
 </manifest>
