@@ -2,8 +2,10 @@
 <manifest>
 
   <remote name="agl"
-          fetch="https://gerrit.automotivelinux.org/gerrit/"
-          review="ssh://gerrit.automotivelinux.org:29418/" />
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+        review="https://gerrit.automotivelinux.org/gerrit/"
+  />
+
   <remote name="poky"
           fetch="git://git.yoctoproject.org/" />
   <remote name="openembedded"
