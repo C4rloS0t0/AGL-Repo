@@ -22,11 +22,11 @@
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="poky" revision="df87cb27efeaea1455f20692f9f1397c6fcab254" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="9efaed99125b1c4324663d9a1b2d3319c74e7278" />
+  <project name="poky" path="poky" remote="poky" revision="dizzy" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="dizzy" />
 
   <!-- Qt things -->
-  <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="adeca0db212d61a933d7952ad44ea1064cfca747" />
+  <project name="meta-qt5" path="meta-qt5" remote="qt5" />
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
