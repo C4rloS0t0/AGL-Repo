@@ -25,8 +25,8 @@
   <project name="poky" path="poky" remote="poky" revision="dizzy" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="dizzy" />
 
-  <!-- Qt things -->
-  <project name="meta-qt5" path="meta-qt5" remote="qt5" />
+  <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
+  <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="jethro"/>
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
