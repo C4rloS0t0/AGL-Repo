@@ -13,7 +13,7 @@
   <remote name="qt5"
           fetch="https://github.com/meta-qt5/" />
 
-  <default revision="master"
+  <default revision="albacore"
            remote="agl"
            sync-j="4" />
 
@@ -29,6 +29,6 @@
   <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="jethro"/>
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
+  <project name="AGL/meta-renesas" path="meta-renesas"/>
 
 </manifest>
