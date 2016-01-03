@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+        review="https://gerrit.automotivelinux.org/gerrit/"
+  />
+
+  <remote name="poky"
+          fetch="git://git.yoctoproject.org/" />
+  <remote name="openembedded"
+          fetch="git://git.openembedded.org/" />
+  <remote name="qt5"
+          fetch="https://github.com/meta-qt5/" />
+
+  <default revision="refs/tags/albacore_1.0"
+           remote="agl"
+           sync-j="4" />
+
+  <!-- AGL things. -->
+  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+
+  <!-- Yocto/OpenEmbedded things. -->
+  <project name="poky" path="poky" remote="poky" revision="6d34267e0a13e10ab91b60590b27a2b5ba3b7da6" />
+  <!-- from dizzy branch -->
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="7f1df52e9409edcc4d4cd5f34694f8740f56e1bf" />
+  <!-- from dizzy branch -->
+
+  <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
+  <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="d5536e34ec985c82b621448ab4325e5cbba38560"/>
+  <!-- from jethro branch -->
+
+  <!-- Porter specific things. -->
+  <project name="AGL/meta-renesas" path="meta-renesas"/>
+
+</manifest>
