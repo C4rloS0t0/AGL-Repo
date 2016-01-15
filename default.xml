@@ -31,4 +31,7 @@
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
 
+  <!-- MinnowBoard MAX specific things -->
+  <project name="meta-intel" path="meta-intel" remote="poky" revision="dizzy" />
+
 </manifest>
