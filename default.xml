@@ -6,12 +6,15 @@
         review="https://gerrit.automotivelinux.org/gerrit/"
   />
 
-  <remote name="poky"
+  <remote name="yocto"
           fetch="git://git.yoctoproject.org/" />
   <remote name="openembedded"
           fetch="git://git.openembedded.org/" />
   <remote name="qt5"
           fetch="https://github.com/meta-qt5/" />
+
+  <remote name="freescale"
+          fetch="https://github.com/Freescale/" />
 
   <default revision="master"
            remote="agl"
@@ -22,7 +25,7 @@
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="poky" revision="jethro" />
+  <project name="poky" path="poky" remote="yocto" revision="jethro" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="jethro" />
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
@@ -32,6 +35,10 @@
   <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="poky" revision="jethro" />
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="jethro" />
+
+  <!-- i.MX6 / e.g. wandboard specific things -->
+  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="jethro" />
+  <project name="meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="freescale" revision="jethro" />
 
 </manifest>
