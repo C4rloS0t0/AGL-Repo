@@ -13,6 +13,7 @@
   <remote name="qt5"
           fetch="https://github.com/meta-qt5/" />
 
+  <!-- freescale bsp -->
   <remote name="freescale"
           fetch="https://github.com/Freescale/" />
 
@@ -40,5 +41,11 @@
   <!-- i.MX6 / e.g. wandboard specific things -->
   <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="jethro" />
   <project name="meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="freescale" revision="jethro" />
+
+  <!-- ti vayu / jacinto 6 / DRA7 -->
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
+
+  <!-- iotivity -->
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.0.1" />
 
 </manifest>
