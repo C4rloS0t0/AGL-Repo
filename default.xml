@@ -54,4 +54,6 @@
   <!-- meta-rust -->
   <project name="meta-rust" path="meta-rust" remote="meta-rust" revision="master" />
 
+  <!-- rpi 2 and 3 -->
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
 </manifest>
