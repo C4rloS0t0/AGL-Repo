@@ -17,6 +17,9 @@
   <remote name="freescale"
           fetch="https://github.com/Freescale/" />
 
+  <!-- meta-rust -->
+  <remote name="meta-rust" fetch="https://github.com/jmesmon/" />
+
   <default revision="master"
            remote="agl"
            sync-j="4" />
@@ -47,5 +50,8 @@
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.0.1" />
+
+  <!-- meta-rust -->
+  <project name="meta-rust" path="meta-rust" remote="meta-rust" revision="master" />
 
 </manifest>
