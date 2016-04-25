@@ -56,4 +56,8 @@
 
   <!-- rpi 2 and 3 -->
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
+
+  <!-- DragonBoard 410c specific things -->
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="jethro" />
+
 </manifest>
