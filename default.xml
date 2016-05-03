@@ -10,15 +10,10 @@
           fetch="git://git.yoctoproject.org/" />
   <remote name="openembedded"
           fetch="git://git.openembedded.org/" />
-  <remote name="qt5"
-          fetch="https://github.com/meta-qt5/" />
 
-  <!-- freescale bsp -->
-  <remote name="freescale"
-          fetch="https://github.com/Freescale/" />
-
-  <!-- meta-rust -->
-  <remote name="meta-rust" fetch="https://github.com/jmesmon/" />
+  <!-- meta-rust --> <!-- freescale bsp --> <!-- meta-amb -->
+  <!-- meta-qt5  -->
+  <remote name="github" fetch="https://github.com/" />
 
   <default revision="master"
            remote="agl"
@@ -33,7 +28,7 @@
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="jethro" />
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
-  <project name="meta-qt5" path="meta-qt5" remote="qt5" revision="jethro"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="jethro"/>
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
@@ -43,7 +38,7 @@
 
   <!-- i.MX6 / e.g. wandboard specific things -->
   <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="jethro" />
-  <project name="meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="freescale" revision="jethro" />
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="jethro" />
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
@@ -51,8 +46,11 @@
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.0.1" />
 
+  <!-- meta-amb -->
+  <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
+
   <!-- meta-rust -->
-  <project name="meta-rust" path="meta-rust" remote="meta-rust" revision="master" />
+  <project name="jmesmon/meta-rust" path="meta-rust" remote="github" revision="master" />
 
   <!-- rpi 2 and 3 -->
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
