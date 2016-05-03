@@ -15,6 +15,9 @@
   <!-- meta-qt5  -->
   <remote name="github" fetch="https://github.com/" />
 
+  <!-- 01.org (Intel) -->
+  <remote name="01org" fetch="https://github.com/01org/" />
+
   <default revision="master"
            remote="agl"
            sync-j="4" />
@@ -57,5 +60,8 @@
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="jethro" />
+
+  <!-- Image Security Analysis FrameWork (isafw) -->
+  <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="jethro" />
 
 </manifest>
