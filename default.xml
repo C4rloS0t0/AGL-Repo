@@ -64,4 +64,7 @@
   <!-- Image Security Analysis FrameWork (isafw) -->
   <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="jethro" />
 
+  <!-- IoT Security layer -->
+  <project name="meta-intel-iot-security" path="meta-intel-iot-security" remote="01org" revision="c5906a1553513ef192a58231700357c5f14f4ae4" />
+
 </manifest>
