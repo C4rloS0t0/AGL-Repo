@@ -26,6 +26,7 @@
   <project name="AGL/meta-agl" path="meta-agl" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="jethro" />
