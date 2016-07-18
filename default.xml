@@ -18,12 +18,13 @@
   <!-- 01.org (Intel) -->
   <remote name="01org" fetch="https://github.com/01org/" />
 
-  <default revision="master"
+  <default revision="blowfish"
            remote="agl"
            sync-j="4" />
 
   <!-- AGL things. -->
   <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-extra" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
@@ -35,7 +36,7 @@
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="jethro"/>
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
+  <project name="AGL/meta-renesas" path="meta-renesas" />
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="jethro" />
