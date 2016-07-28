@@ -36,7 +36,7 @@
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="ea37a0bc987aa9484937ad68f762b4657c198617" upstream="jethro"/>
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" />
+  <project name="AGL/meta-renesas" path="meta-renesas" revision="82611ccadef36ab0b8a6fd6fb1cf055e115f1ef5" />
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" remote="yocto" revision="aca8652267fb70a00995d32a1de8581694d6c867" upstream="jethro"/>
