@@ -18,6 +18,8 @@
   <!-- 01.org (Intel) -->
   <remote name="01org" fetch="https://github.com/01org/" />
 
+  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+
   <default revision="master"
            remote="agl"
            sync-j="4" />
@@ -44,6 +46,7 @@
   <!-- i.MX6 / e.g. wandboard specific things -->
   <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="jethro" />
   <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="jethro" />
+  <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" />
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
