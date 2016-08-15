@@ -31,22 +31,22 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="jethro" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="jethro" />
+  <project name="poky" path="poky" remote="yocto" revision="krogoth" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="krogoth" />
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="jethro"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="d715f2c1d340fa38f8a9860acc73de5e14a38b75" upstream="krogoth" />
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" revision="agl-1.0-bsp-1.8.0" />
+  <project name="AGL/meta-renesas" path="meta-renesas" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="jethro" />
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="jethro" />
-  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="jethro" />
-  <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" />
+  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="krogoth" />
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="krogoth" />
+  <!-- <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" /> To be enabled for sabre. Off due to clone time -->
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
@@ -64,10 +64,10 @@
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="jethro" />
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="krogoth" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
-  <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="jethro" />
+  <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="master" />
 
   <!-- IoT Security layer -->
   <project name="meta-intel-iot-security" path="meta-intel-iot-security" remote="01org" revision="c5906a1553513ef192a58231700357c5f14f4ae4" />
