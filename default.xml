@@ -52,7 +52,7 @@
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
 
   <!-- iotivity -->
-  <project name="meta-oic" path="meta-oic" remote=github" revision="1.1.1" />
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.1.1" />
 
   <!-- meta-amb -->
   <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
