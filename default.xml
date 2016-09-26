@@ -61,7 +61,7 @@
   <project name="konsulko/meta-rust" path="meta-rust" remote="github" revision="krogoth" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="cc64d6324d1543f009f0c010d720e74b7cb9f5d5" />
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="krogoth" />
