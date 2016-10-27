@@ -25,10 +25,10 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/ronan/morty" />
-  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="sandbox/ronan/morty"/>
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="sandbox/ronan/morty"/>
-  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="master"/>
+  <project name="AGL/meta-agl" path="meta-agl" revision="morty" />
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="morty"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="morty"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="morty"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
@@ -38,14 +38,14 @@
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas"  revision="sandbox/ronan/morty" />
+  <project name="AGL/meta-renesas" path="meta-renesas"  revision="morty" />
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="morty" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="krogoth" />
-  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="krogoth" />
+  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="master" />
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="master" />
   <!-- <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" /> To be enabled for sabre. Off due to clone time -->
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
@@ -61,10 +61,10 @@
   <project name="konsulko/meta-rust" path="meta-rust" remote="github" revision="krogoth" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="krogoth" />
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="master" />
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="krogoth" />
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="master" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="master" />
