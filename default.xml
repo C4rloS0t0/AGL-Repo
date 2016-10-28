@@ -59,7 +59,7 @@
   <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
 
   <!-- meta-rust -->
-  <project name="konsulko/meta-rust" path="meta-rust" remote="github" revision="krogoth" />
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="4eb46035c535dd6fc1626d08757ddfb72eb796f2" />
 
   <!-- rpi 2 and 3 -->
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="krogoth" />
