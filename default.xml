@@ -35,8 +35,8 @@
   <project name="poky" path="poky" remote="yocto" revision="krogoth" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="krogoth" />
 
-  <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="d715f2c1d340fa38f8a9860acc73de5e14a38b75" upstream="krogoth" />
+  <!-- Qt things --> <!-- meta-qt5 has qt5.7 in branch morty -->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
