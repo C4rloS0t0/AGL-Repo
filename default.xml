@@ -30,21 +30,21 @@
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="118380bc5d01e52b5edc574abb4176f6e70a54a6" upstream="jethro"/>
-  <project name="meta-openembedded" remote="openembedded" revision="8ab04afbffb4bc5184cfe0655049de6f44269990" upstream="jethro"/>
+  <project name="poky" path="poky" remote="yocto" revision="jethro"/>
+  <project name="meta-openembedded" remote="openembedded" revision="jethro"/>
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.5.x in branch jethro -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="ea37a0bc987aa9484937ad68f762b4657c198617" upstream="jethro"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="jethro"/>
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" remote="yocto" revision="aca8652267fb70a00995d32a1de8581694d6c867" upstream="jethro"/>
+  <project name="meta-intel" remote="yocto" revision="jethro"/>
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="meta-fsl-arm" remote="yocto" revision="c9e576bdae8c481f5a836531c7865fe8b8a5a36f" upstream="jethro"/>
-  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="dd074c47af53948041f6c5671e519fbf815b0980" upstream="jethro"/>
+  <project name="meta-fsl-arm" remote="yocto" revision="jethro"/>
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="jethro"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" remote="yocto" revision="543dac569bb64a3b75e549fb17a5ef65d590dc1b" upstream="master"/>
@@ -63,10 +63,10 @@
   <project name="meta-raspberrypi" remote="yocto" revision="2745399f75d7564fcc586d0365ff73be47849d0e" upstream="master"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" remote="yocto" revision="9f047a90a958c77d125ff4745044d2f25614469d" upstream="jethro"/>
+  <project name="meta-qcom" remote="yocto" revision="jethro"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
-  <project name="meta-security-isafw" remote="01org" revision="d6db6a103b381aebac1a4e7dae41813aec735628" upstream="jethro"/>
+  <project name="meta-security-isafw" remote="01org" revision="jethro"/>
 
   <!-- IoT Security layer -->
   <project name="meta-intel-iot-security" remote="01org" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" upstream="master"/>
