@@ -26,7 +26,7 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/ygicquel/gen3-bringup" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
@@ -38,8 +38,12 @@
   <!-- Qt things --> <!-- meta-qt5 has qt5.7 in branch morty -->
   <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
 
-  <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" />
+   <!-- Porter specific things. -->
+  <project name="AGL/meta-renesas" path="meta-renesas" remote="agl" />
+
+  <!-- Renesas Gen3 specific things -->
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v2.12.0" />
+
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
