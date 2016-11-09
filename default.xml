@@ -41,6 +41,9 @@
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
 
+  <!-- Renesas Gen3 specific things -->
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v2.12.0" />
+
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
 
