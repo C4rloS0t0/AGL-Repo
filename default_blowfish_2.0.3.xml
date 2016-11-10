@@ -11,7 +11,7 @@
   <project name="AGL/meta-agl" path="meta-agl" revision="fe443845018ddb6fd87ce1c9cd10b292316bc75e" upstream="refs/tags/blowfish_2.0.3"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="e3171abd55d21fc612cdfd3ce634d9d265bb0d2c" upstream="refs/tags/blowfish_2.0.3"/>
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="cd2c1680f3908021489103248c36001c7714555b" upstream="refs/tags/blowfish_2.0.3"/>
-  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="d2059692209fa49b7c86b6478938aa92ab78ee41" upstream="refs/tags/blowfish_2.0.3"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="ae5f4a9a850a9318e16948b0c206059c7d79a927" upstream="refs/tags/blowfish_2.0.3"/>
   <project name="AGL/meta-renesas" path="meta-renesas" revision="9e58b8be7e98b6911db6a0a3af3fbe4e185f279f" upstream="refs/tags/blowfish_2.0.3"/>
   <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="dd074c47af53948041f6c5671e519fbf815b0980" upstream="jethro"/>
   <project name="konsulko/meta-rust" path="meta-rust" remote="github" revision="395cde581938d862abb6a9219c0118c81cf01da2" upstream="jethro"/>
