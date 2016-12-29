@@ -52,6 +52,9 @@
   <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="krogoth" />
   <!-- <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" /> To be enabled for sabre. Off due to clone time -->
 
+  <!-- Boundary devices bsp layer -->
+  <project name="boundarydevices/meta-boundary" path="github" remote="github" revision="krogoth" />
+
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="krogoth" />
 
