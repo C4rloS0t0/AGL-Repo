@@ -21,12 +21,12 @@
 
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
-  <default revision="master"
+  <default revision="chinook"
            remote="agl"
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl"/>
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
