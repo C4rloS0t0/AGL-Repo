@@ -56,7 +56,7 @@
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="krogoth" />
 
   <!-- iotivity -->
-  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="0bdd959e0dee4f63098702c302d1d214ac3d808a" />
 
   <!-- meta-amb -->
   <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
