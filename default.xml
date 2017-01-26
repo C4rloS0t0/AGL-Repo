@@ -12,7 +12,7 @@
   <remote name="openembedded"
           fetch="git://git.openembedded.org/" />
 
-  <!-- meta-rust --> <!-- freescale bsp --> <!-- meta-amb -->
+  <!-- meta-rust --> <!-- freescale bsp -->
   <!-- meta-qt5  -->
   <remote name="github" fetch="https://github.com/" />
 
@@ -60,9 +60,6 @@
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
-
-  <!-- meta-amb -->
-  <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
 
   <!-- meta-rust -->
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
