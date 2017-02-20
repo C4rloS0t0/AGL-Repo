@@ -18,9 +18,7 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <!-- 01.org (Intel) -->
-  <remote name="01org" fetch="https://github.com/01org/" />
-
+  <!-- fsl/nxp --> <!-- likely broken -->
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
   <default revision="master"
@@ -38,10 +36,10 @@
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
 
   <!-- Qt things --> <!-- meta-qt5 has qt5.7.x in branch morty -->
-  <!-- <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" /> -->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
   <!-- switch from opensource project meta-qt5 to vendor-maintained repo -->
   <!-- QT uses vendor branch 5.8 -->
-  <project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />
+  <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
@@ -75,10 +73,14 @@
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="morty" />
 
+  <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
+  <!-- https://github.com/kraj/meta-altera -->
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="4364dbfcb600da82ecdfc4797f112d187e40f1c3" /> 
+
   <!-- Image Security Analysis FrameWork (isafw) -->
-  <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="master" />
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="master" />
 
   <!-- IoT Security layer -->
-  <project name="meta-intel-iot-security" path="meta-intel-iot-security" remote="01org" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+  <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
 
 </manifest>
