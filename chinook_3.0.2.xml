@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/01org/" name="01org"/>
+  <remote fetch="https://gerrit.automotivelinux.org/gerrit/" name="agl" pushurl="ssh://gerrit.automotivelinux.org:29418" review="https://gerrit.automotivelinux.org/gerrit/"/>
+  <remote fetch="git://git.freescale.com/imx" name="fsl-release"/>
+  <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="git://git.openembedded.org/" name="openembedded"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  
+  <default remote="agl" revision="refs/tags/3.0.2" sync-j="4"/>
+  
+  <project name="AGL/meta-agl" path="meta-agl" revision="f12cf6c411837028425754deb5d7d92260880722" upstream="refs/tags/3.0.2"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="3ee3e6b6336b17986964b22fd8f9c36e98955139" upstream="refs/tags/3.0.2"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="134e5f446b52f6a02f38212b9bde076adad798f8" upstream="refs/tags/3.0.2"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="27fc9de4aa4d0684a0441cb55a9dafce760f2f68" upstream="refs/tags/3.0.2"/>
+  <project name="AGL/meta-renesas" path="meta-renesas" revision="90122dd63d72061b93bd3cbe3a7b520aaa531a19" upstream="refs/tags/3.0.2"/>
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="419bc8d2375c756ed0877972d5a2323207781e57" upstream="v2.12.0"/>
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="e95f4ae61fdaf6452d6dfa9cb59dbdf9cdf73c99" upstream="krogoth"/>
+  <project name="meta-fsl-arm" remote="yocto" revision="e2254e7b2ded0c2b66b1226f879b3a6d52037b2d" upstream="krogoth"/>
+  <project name="meta-intel" remote="yocto" revision="1f8dd1b00ce9c72d73583c405ec392690d9b08b7" upstream="krogoth"/>
+  <project name="meta-intel-iot-security" remote="01org" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285"/>
+  <project name="meta-oic" remote="yocto" revision="0bdd959e0dee4f63098702c302d1d214ac3d808a"/>
+  <project name="meta-openembedded" remote="openembedded" revision="55c8a76da5dc099a7bc3838495c672140cedb78e" upstream="krogoth"/>
+  <project name="meta-qcom" remote="yocto" revision="3bfe83535358289aa7f7342ed0977c076e7550c8" upstream="krogoth"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="3601fd2c5306ac6d5d0d536e0be8cbb90da9b4c1" upstream="morty"/>
+  <project name="meta-raspberrypi" remote="yocto" revision="a5f9b07a820d50ae5fb62e07306cd4e72d8638a9" upstream="krogoth"/>
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="d0663639a08ed60bb83fd6eb99e3e2045b21b53c"/>
+  <project name="meta-security-isafw" remote="01org" revision="834272c2471a86aca826170036598889b5dd552a" upstream="master"/>
+  <project name="meta-ti" remote="yocto" revision="2a474f9f2cc6972f337f09805f0af17b371033d5" upstream="krogoth"/>
+  <project name="poky" remote="yocto" revision="ae9b341ecfcc60e970f29cfe04306411ad26c0cf" upstream="krogoth"/>
+  <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="ef3495bb8d6543709f6d1f7b657cb894d32c1757" upstream="master"/>
+</manifest>
