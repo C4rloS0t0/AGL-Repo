@@ -78,8 +78,8 @@
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="4364dbfcb600da82ecdfc4797f112d187e40f1c3" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
-  <!-- newer version broken by use of 'staging_populate_sysroot_dir' in b45750ee93aac553142380ecd9130e5f5906eedf -->
-  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="f44f15bb54057dd60399bb5dc7e0ecc7822168a2" />
+  <!-- use morty branch for CC and DD - conflicting changes in master-->
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="morty" />
 
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
