@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+         review="https://gerrit.automotivelinux.org/gerrit/"
+         pushurl="ssh://gerrit.automotivelinux.org:29418"
+  />
+
+  <remote name="yocto"
+          fetch="git://git.yoctoproject.org/" />
+  <remote name="openembedded"
+          fetch="git://git.openembedded.org/" />
+
+  <!-- meta-rust --> <!-- freescale bsp --> <!-- meta-amb -->
+  <!-- meta-qt5  -->
+  <remote name="github" fetch="https://github.com/" />
+
+  <!-- 01.org (Intel) -->
+  <remote name="01org" fetch="https://github.com/01org/" />
+
+  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
+
+  <default revision="refs/tags/3.0.3"
+           remote="agl"
+           sync-j="4" />
+
+  <!-- AGL things. -->
+  <project name="AGL/meta-agl" path="meta-agl"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+
+  <!-- Yocto/OpenEmbedded things. -->
+  <project name="poky" path="poky" remote="yocto" revision="krogoth" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="krogoth" />
+
+  <!-- Qt things --> <!-- meta-qt5 has qt5.7 in branch morty -->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
+
+  <!-- Porter specific things. -->
+  <project name="AGL/meta-renesas" path="meta-renesas" />
+
+  <!-- Renesas Gen3 specific things -->
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v2.12.0" />
+
+  <!-- MinnowBoard MAX specific things -->
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="krogoth" />
+
+  <!-- i.MX6 / e.g. wandboard specific things -->
+  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="krogoth" />
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="krogoth" />
+  <!-- <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" /> To be enabled for sabre. Off due to clone time -->
+
+  <!-- ti vayu / jacinto 6 / DRA7 -->
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="krogoth" />
+
+  <!-- iotivity -->
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="0bdd959e0dee4f63098702c302d1d214ac3d808a" />
+
+  <!-- meta-amb -->
+  <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master" />
+
+  <!-- meta-rust -->
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="d0663639a08ed60bb83fd6eb99e3e2045b21b53c" />
+
+  <!-- rpi 2 and 3 -->
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="krogoth" />
+
+  <!-- DragonBoard 410c specific things -->
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="krogoth" />
+
+  <!-- Image Security Analysis FrameWork (isafw) -->
+  <!-- use morty branch for CC and DD - conflicting changes in master-->
+  <project name="meta-security-isafw" path="meta-security-isafw" remote="01org" revision="morty" />
+
+  <!-- IoT Security layer -->
+  <project name="meta-intel-iot-security" path="meta-intel-iot-security" remote="01org" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+
+</manifest>
