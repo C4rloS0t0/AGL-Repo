@@ -31,10 +31,7 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
 
   <!-- Updater layers -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="morty"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater/meta-updater-qemux86-64" remote="github" revision="morty"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="meta-updater/meta-updater-raspberrypi" remote="github" revision="morty"/>
-  <project name="advancedtelematic/meta-updater-minnowboard" path="meta-updater/meta-updater-minnowboard" remote="github" revision="morty"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="77e701b94ed91762df51ddae3743c3bde4ca9f8f"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
