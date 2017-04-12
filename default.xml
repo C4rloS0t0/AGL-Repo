@@ -26,10 +26,12 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
-  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/oytis/switchupdater" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+
+  <!-- Updater layers. -->
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="switchupdater"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
@@ -42,7 +44,7 @@
   <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
 
   <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" />
+  <project name="AGL/meta-renesas" path="meta-renesas" revision="sandbox/oytis/switchupdater" />
 
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="morty" />
