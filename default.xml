@@ -29,6 +29,7 @@
   <project name="AGL/meta-agl" path="meta-agl" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="4ebfc44b3eff288b8cc2f6b2b4251159cbeab14b"/>
