@@ -38,8 +38,9 @@
   <project name="poky" path="poky" remote="yocto" revision="morty" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
 
-  <!-- Qt things --> <!-- meta-qt5 has qt5.7.x in branch morty -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty" />
+  <!-- Qt things -->
+  <!-- Qt 5.8 -->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="5f837b47f5c3e462f24cd5abf58ff6ef1dd04932" />
   <!-- switch from opensource project meta-qt5 to vendor-maintained repo -->
   <!-- QT uses vendor branch 5.8 -->
   <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
