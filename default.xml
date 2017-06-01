@@ -23,17 +23,17 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/locust2001/pyro"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="sandbox/locust2001/pyro" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="45c155a67d3532ad32342fc512e8bf6341ab9e5d"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="pyro"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="morty" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
+  <project name="poky" path="poky" remote="yocto" revision="pyro" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="pyro" />
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
@@ -49,7 +49,7 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="morty_bsp_2.19" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="morty" />
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="pyro" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
   <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="morty" />
@@ -69,7 +69,7 @@
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74" />
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="pyro" />
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="morty" />
