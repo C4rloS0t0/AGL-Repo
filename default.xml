@@ -32,7 +32,7 @@
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="8379268522e453923514cc74ef37b9585ab4bde7"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="45c155a67d3532ad32342fc512e8bf6341ab9e5d"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
