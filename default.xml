@@ -21,7 +21,7 @@
   <!-- fsl/nxp --> <!-- likely broken -->
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
 
-  <default revision="master"
+  <default revision="dab"
            remote="agl"
            sync-j="4" />
 
