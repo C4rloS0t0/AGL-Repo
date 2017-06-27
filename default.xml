@@ -18,9 +18,6 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <!-- fsl/nxp --> <!-- likely broken -->
-  <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
-
   <default revision="master"
            remote="agl"
            sync-j="4" />
@@ -55,9 +52,9 @@
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="morty" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="meta-fsl-arm" path="meta-fsl-arm" remote="yocto" revision="krogoth" />  <!-- no morty branch, krogoth branch active -->
-  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="morty" />
-  <!-- <project name="meta-fsl-bsp-release" path="meta-fsl-bsp-release" remote="fsl-release" revision="jethro_4.1.15-1.0.0_ga" /> To be enabled for sabre. Off due to clone time -->
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="morty" />
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="morty" />
+  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="morty" />
 
   <!-- Boundary devices bsp layer -->
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="morty" />
