@@ -32,12 +32,12 @@
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="45c155a67d3532ad32342fc512e8bf6341ab9e5d"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" remote="yocto" revision="fd7f2d644a94bbb951c0bed11af7deb35f1cfb22" upstream="morty"/>
-  <project name="meta-openembedded" remote="openembedded" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"/>
+  <project name="poky" path="poky" remote="yocto" revision="morty" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="5f837b47f5c3e462f24cd5abf58ff6ef1dd04932"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="5f837b47f5c3e462f24cd5abf58ff6ef1dd04932" />
   <!-- switch from opensource project meta-qt5 to vendor-maintained repo -->
   <!-- QT uses vendor branch 5.8 -->
   <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
@@ -49,30 +49,30 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="morty_bsp_2.19" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" remote="yocto" revision="6add41510412ca196efb3e4f949d403a8b6f35d7" upstream="morty"/>
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="morty" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="fa774ad7fb797957601a8c9fee45af453fea34b7" upstream="morty"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="1879485e63ce369292c89b5902ff6df13509090b" upstream="morty"/>
-  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="morty" />
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="morty" />
+  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="morty" />
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="d44ee8f58d841cf13fbe63dab271344e2b9ba6db" upstream="morty"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="morty" />
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" remote="yocto" revision="460ce7d0473b88d20fcb3fed3aa0f3acc37c78c9" upstream="master"/>
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
 
   <!-- iotivity -->
-  <project name="meta-oic" remote="yocto" revision="028a5c234fb9fe51b39db339f7d4250fba978198" upstream="1.2.0"/>
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
 
   <!-- meta-rust -->
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74" />
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" remote="yocto" revision="26380970fbe5e8a04efe8c1098ad45acae0d87e4" upstream="morty"/>
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="morty" />
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
@@ -80,11 +80,10 @@
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- use morty branch for CC and DD - conflicting changes in master-->
-  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="0fa0aff75ee21edd758a1baddc4522371a746f99" upstream="morty"/>
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="morty" />
 
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
   <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
 
 </manifest>
-
