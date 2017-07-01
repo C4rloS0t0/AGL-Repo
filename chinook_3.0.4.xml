@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/01org/" name="01org"/>
+  <remote fetch="https://gerrit.automotivelinux.org/gerrit/" name="agl" pushurl="ssh://gerrit.automotivelinux.org:29418" review="https://gerrit.automotivelinux.org/gerrit/"/>
+  <remote fetch="git://git.freescale.com/imx" name="fsl-release"/>
+  <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="git://git.openembedded.org/" name="openembedded"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  
+  <default remote="agl" revision="refs/tags/3.0.4" sync-j="4"/>
+  
+  <project name="AGL/meta-agl" path="meta-agl"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra"/>
+  <project name="AGL/meta-renesas" path="meta-renesas"/>
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v2.12.0"/>
+  <project name="Freescale/meta-fsl-arm-extra" path="meta-fsl-arm-extra" remote="github" revision="krogoth"/>
+  <project name="meta-fsl-arm" remote="yocto" revision="krogoth"/>
+  <project name="meta-intel" remote="yocto" revision="krogoth"/>
+  <project name="meta-intel-iot-security" remote="01org" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285"/>
+  <project name="meta-oic" remote="yocto" revision="0bdd959e0dee4f63098702c302d1d214ac3d808a"/>
+  <project name="meta-openembedded" remote="openembedded" revision="krogoth"/>
+  <project name="meta-qcom" remote="yocto" revision="krogoth"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="morty"/>
+  <project name="meta-raspberrypi" remote="yocto" revision="krogoth"/>
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="d0663639a08ed60bb83fd6eb99e3e2045b21b53c"/>
+  <project name="meta-security-isafw" remote="01org" revision="morty"/>
+  <project name="meta-ti" remote="yocto" revision="krogoth"/>
+  <project name="poky" remote="yocto" revision="krogoth"/>
+  <project name="tripzero/meta-amb" path="meta-amb" remote="github" revision="master"/>
+</manifest>
