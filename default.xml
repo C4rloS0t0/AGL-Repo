@@ -34,6 +34,7 @@
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="morty" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="morty" />
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="morty" />
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
