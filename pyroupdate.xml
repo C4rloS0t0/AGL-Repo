@@ -23,70 +23,69 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" revision="master"/>
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="master" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="refs/changes/57/10457/11"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="refs/changes/55/10455/4" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="67601afe1536636f9b11d188cd963ea25cec00c3"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="67601afe1536636f9b11d188cd963ea25cec00c3" upstream="pyro"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="6bd890d9e011014cf323e61267f8b256949d44aa" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" />
-  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="dd49614c70364a11dc50798f32f1b2ffa3d0409e" />
+  <project name="poky" path="poky" remote="yocto" revision="4a39979c8d1e560fa54240e99734a651dfbaa63a" upstream="pyro"/>
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="dd49614c70364a11dc50798f32f1b2ffa3d0409e" upstream="pyro"/>
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="31761f625d2151e9d94d0d83067f90a5da6508e1" />
-  <!-- switch from opensource project meta-qt5 to vendor-maintained repo -->
-  <!-- QT uses vendor branch 5.8 -->
-  <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="31761f625d2151e9d94d0d83067f90a5da6508e1" upstream="pyro"/>
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="pyro_bsp_2.19" />
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="refs/changes/25/10525/4" />
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="16aea09d224f3ed2021623d17c3e807f4b8ff18d" />
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="pyro" />
-  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="pyro" />
-  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="pyro" />
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="acc2df2a62f0c1403e2c539ebaf8830239b84b7b" upstream="pyro" />
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="a73a14247afbbcf840bab7b76f953004fe109253" upstream="pyro" />
+  <!-- this should not be pulled-down  ~~ jsmoeller -->
+  <!-- <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="pyro" /> -->
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f2ca013687adf5ab00796c5f2b75d4aac2657b2e" />
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f2ca013687adf5ab00796c5f2b75d4aac2657b2e" upstream="pyro"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="master" />
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="28bd2c60042a3816c2f2dea4df29d28214e361ea" upstream="master"  />
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
 
   <!-- meta-rust -->
-  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="f6d973c5cacb9b52f32118caa879dcc7922d3c98" />
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="f6d973c5cacb9b52f32118caa879dcc7922d3c98" upstream="pyro"/>
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8ba2d6fc80b31c87d25c87c863e2a77752b07c3c" />
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8ba2d6fc80b31c87d25c87c863e2a77752b07c3c" upstream="pyro"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="aa09d55d9a34e22e41759392a4f9cd93f6cf8e1c" />
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="aa09d55d9a34e22e41759392a4f9cd93f6cf8e1c" upstream="pyro"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="4364dbfcb600da82ecdfc4797f112d187e40f1c3" />
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="9d22d2dab4fd219a9d9651cbfce1bab3c3a7fb6a" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- use morty branch for CC and DD - conflicting changes in master-->
-  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="morty" />
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="489abdc65cefb566d696c8b218aa0b9b99a350ae" upstream="master"/>
 
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
-  <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+  <!-- needs to stay locked until cynara and security-manager are in new repo -->
+  <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" upstream="master"/>
 
   <!-- SmartDeviceLink layer -->
-  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="7a47610ba678f4ac4183ddc370281a66ff88989c" />
+  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="7a47610ba678f4ac4183ddc370281a66ff88989c" upstream="release/4.1.0"/>
 </manifest>
