@@ -23,7 +23,7 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" revision="refs/changes/57/10457/11"/>
+  <project name="AGL/meta-agl" path="meta-agl" revision="refs/changes/57/10457/12"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="refs/changes/55/10455/5" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
