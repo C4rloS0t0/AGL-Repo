@@ -23,8 +23,8 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" revision="refs/changes/57/10457/12"/>
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="refs/changes/55/10455/5" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="refs/changes/57/10457/16"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="refs/changes/55/10455/6" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
@@ -59,7 +59,7 @@
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f2ca013687adf5ab00796c5f2b75d4aac2657b2e" upstream="pyro"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="28bd2c60042a3816c2f2dea4df29d28214e361ea" upstream="master"  />
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="665e63d11a5ad3f9d44756c6aaa9e9bfa4f23495" upstream="master"  />
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="1.2.0" />
@@ -68,14 +68,14 @@
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="f6d973c5cacb9b52f32118caa879dcc7922d3c98" upstream="pyro"/>
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8ba2d6fc80b31c87d25c87c863e2a77752b07c3c" upstream="pyro"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8291756c3f8b119765761b5bd4a45cae10a0e90c" upstream="pyro"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="aa09d55d9a34e22e41759392a4f9cd93f6cf8e1c" upstream="pyro"/>
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="6b69b67b403b4d83748c5852d8a43cea44a696d3" upstream="pyro"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="9d22d2dab4fd219a9d9651cbfce1bab3c3a7fb6a" />
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="d4bbb7ef016eab4ab04c3e794dfe6f4276196c66" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- use morty branch for CC and DD - conflicting changes in master-->
