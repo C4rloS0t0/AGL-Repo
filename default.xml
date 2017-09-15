@@ -47,7 +47,7 @@
   <project name="AGL/meta-renesas" path="meta-renesas" />
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="pyro_bsp_2.19" />
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="pyro_bsp_2.23" />
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="pyro" />
