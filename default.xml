@@ -29,10 +29,10 @@
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="9cf14ec8d924a5f88a3441ee2896a04f74188024"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="9cf14ec8d924a5f88a3441ee2896a04f74188024" upstream="morty" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" remote="yocto" revision="fd7f2d644a94bbb951c0bed11af7deb35f1cfb22" upstream="morty"/>
+  <project name="poky" remote="yocto" revision="60402978fe3648bf560b3386c6e9dd661cdf2083" upstream="morty"/>
   <project name="meta-openembedded" remote="openembedded" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"/>
 
   <!-- Qt things -->
@@ -57,10 +57,10 @@
   <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="d44ee8f58d841cf13fbe63dab271344e2b9ba6db" upstream="morty"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="82ea76062a501c5de80ca9d58680ef434f92a611" upstream="morty"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" remote="yocto" revision="460ce7d0473b88d20fcb3fed3aa0f3acc37c78c9" upstream="master"/>
+  <project name="meta-ti" remote="yocto" revision="deca57ee5d35dba91b6be40cd2d5caaef6950b85" upstream="master"/>
 
   <!-- iotivity -->
   <project name="meta-oic" remote="yocto" revision="028a5c234fb9fe51b39db339f7d4250fba978198" upstream="1.2.0"/>
@@ -72,11 +72,11 @@
   <project name="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" remote="yocto" revision="26380970fbe5e8a04efe8c1098ad45acae0d87e4" upstream="morty"/>
+  <project name="meta-qcom" remote="yocto" revision="827aa31c1acbfe6b420554625788ba7c89966e07" upstream="morty"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="4364dbfcb600da82ecdfc4797f112d187e40f1c3" />
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="d4bbb7ef016eab4ab04c3e794dfe6f4276196c66" />
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- use morty branch for CC and DD - conflicting changes in master-->
