@@ -77,7 +77,7 @@
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="4364dbfcb600da82ecdfc4797f112d187e40f1c3" />
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="d4bbb7ef016eab4ab04c3e794dfe6f4276196c66" upstream="master"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- use morty branch for CC and DD - conflicting changes in master-->
