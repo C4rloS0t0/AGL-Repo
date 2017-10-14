@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://gerrit.automotivelinux.org/gerrit/" name="agl" pushurl="ssh://gerrit.automotivelinux.org:29418" review="https://gerrit.automotivelinux.org/gerrit/"/>
+  <remote fetch="https://github.com/" name="github"/>
+  <remote fetch="git://git.openembedded.org/" name="openembedded"/>
+  <remote fetch="git://code.qt.io/" name="qt.io"/>
+  <remote fetch="git://git.yoctoproject.org/" name="yocto"/>
+  
+  <default remote="agl" revision="refs/tags/eel/4.99.1" sync-j="4"/>
+  
+  <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285"/>
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="0fa0aff75ee21edd758a1baddc4522371a746f99" upstream="morty"/>
+  <project name="AGL/meta-agl" path="meta-agl" revision="970a7f8e15d8889433066e9276b548b89af30cb2" upstream="refs/tags/eel/4.99.1"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="0c843ff30b858dea449a82abc10c1681ed1c1de6" upstream="refs/tags/eel/4.99.1"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="7d7fe0e26af1a27b7a3e2256f6ef48965b3239ed" upstream="refs/tags/eel/4.99.1"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="abe6250af91c4b3193511f4dd5fbfb7ee40d76d5" upstream="refs/tags/eel/4.99.1"/>
+  <project name="AGL/meta-renesas" path="meta-renesas" revision="20109e659434e77777ff6d39f9967d7831e1baca" upstream="refs/tags/eel/4.99.1"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="122260cee433596f28ddfc97c9118eabe0e1d979" upstream="pyro_bsp_2.23"/>
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="10d8ccb5ff2c31d2a5b13e088a8ec9511cbc3e72" upstream="pyro"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="35badbde05d4f10d4faeefc30bc126b5bd228e2e" upstream="pyro"/>
+  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="df3b2637a01a2ce398a63b34be4759895f957ec2" upstream="pyro"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="fb9bd92e4173ded438cd05f4c5c7f7d028d29cc7" upstream="pyro"/>
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="d4bbb7ef016eab4ab04c3e794dfe6f4276196c66" upstream="master"/>
+  <project name="meta-intel" remote="yocto" revision="63de2abadfa8164e28575e412e2bd9c315840ddb" upstream="pyro"/>
+  <project name="meta-oic" remote="yocto" revision="70d5bec59a3b8aabaa4a69f1d8513ff22d86b473" upstream="1.2.1"/>
+  <project name="meta-openembedded" remote="openembedded" revision="5e82995148a2844c6f483ae5ddd1438d87ea9fb7" upstream="pyro"/>
+  <project name="meta-qcom" remote="yocto" revision="de0e9d58693f45809040bd5e341322cfc2e29685" upstream="pyro"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="c6aa602d0640040b470ee81de39726276ddc0ea3" upstream="pyro"/>
+  <project name="meta-raspberrypi" remote="yocto" revision="ed3b254454494b36d4205818e369f59718704e60" upstream="pyro"/>
+  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="94280a636c9a6dd729f9eb3ed88fe85b11ee8ffa" upstream="pyro"/>
+  <project name="meta-ti" remote="yocto" revision="ae36a7c870d0c798a60bc89457ef821e0fbedf63" upstream="master"/>
+  <project name="meta-virtualization" remote="yocto" revision="dd49614c70364a11dc50798f32f1b2ffa3d0409e" upstream="pyro"/>
+  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="d9451f4d2dd1a3927b0ce5e55a4f0dc9a3daee27"/>
+  <project name="poky" remote="yocto" revision="b1f14ecddf5960a8ffa133d760a598bd948d21dc" upstream="pyro"/>
+</manifest>
