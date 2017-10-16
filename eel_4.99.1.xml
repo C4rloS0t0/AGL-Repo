@@ -15,7 +15,7 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="7d7fe0e26af1a27b7a3e2256f6ef48965b3239ed" upstream="refs/tags/eel/4.99.1"/>
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="abe6250af91c4b3193511f4dd5fbfb7ee40d76d5" upstream="refs/tags/eel/4.99.1"/>
   <project name="AGL/meta-renesas" path="meta-renesas" revision="20109e659434e77777ff6d39f9967d7831e1baca" upstream="refs/tags/eel/4.99.1"/>
-  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="122260cee433596f28ddfc97c9118eabe0e1d979" upstream="pyro_bsp_2.23"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="ab7cb4964615b20fff744d6c227fb99df70c719b" upstream="refs/tags/eel/4.99.1"/>
   <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="10d8ccb5ff2c31d2a5b13e088a8ec9511cbc3e72" upstream="pyro"/>
   <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="35badbde05d4f10d4faeefc30bc126b5bd228e2e" upstream="pyro"/>
   <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro"/>
