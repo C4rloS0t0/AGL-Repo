@@ -32,7 +32,7 @@
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="9cf14ec8d924a5f88a3441ee2896a04f74188024" upstream="morty" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" remote="yocto" revision="60402978fe3648bf560b3386c6e9dd661cdf2083" upstream="morty"/>
+  <project name="poky" remote="yocto" revision="1d92cb1a20135cfffff9f94a6633ec0840518738" upstream="morty"/>
   <project name="meta-openembedded" remote="openembedded" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"/>
 
   <!-- Qt things -->
