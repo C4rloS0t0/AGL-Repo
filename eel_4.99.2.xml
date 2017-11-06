@@ -32,5 +32,5 @@
   <project name="meta-ti" remote="yocto" revision="78326e7baa308945d62a0293758df6542a875d8b" upstream="master"/>
   <project name="meta-virtualization" remote="yocto" revision="8a0173487504676e2897575cab858ab4c0f1ca09" upstream="pyro"/>
   <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="d9451f4d2dd1a3927b0ce5e55a4f0dc9a3daee27"/>
-  <project name="poky" remote="yocto" revision="ebb625a140ef67d65dca1b262304377814eb8ed4" upstream="pyro"/>
+  <project name="poky" remote="yocto" revision="ce26a57e04ad65c02087629701d96448a44e73d5" upstream="pyro"/>
 </manifest>
