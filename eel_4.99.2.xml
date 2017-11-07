@@ -10,7 +10,7 @@
   
   <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285"/>
   <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="0fa0aff75ee21edd758a1baddc4522371a746f99" upstream="morty"/>
-  <project name="AGL/meta-agl" path="meta-agl" revision="2f336020397356c737de0714b616158f6e78b11e" upstream="refs/tags/eel/4.99.2"/>
+  <project name="AGL/meta-agl" path="meta-agl" revision="f0e87b1656d46b1e72dc89fcf0186065ce804fc4" upstream="refs/tags/eel/4.99.2"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="10c9f16b8853d0e4c2e75b4382122b6a6aa4a734" upstream="refs/tags/eel/4.99.2"/>
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="583e5b6253dcca995d787b4e386bed558d7f6601" upstream="refs/tags/eel/4.99.2"/>
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="abe6250af91c4b3193511f4dd5fbfb7ee40d76d5" upstream="refs/tags/eel/4.99.2"/>
