@@ -18,7 +18,7 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <default revision="master"
+  <default revision="eel"
            remote="agl"
            sync-j="4" />
 
