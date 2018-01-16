@@ -29,11 +29,11 @@
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="9cf14ec8d924a5f88a3441ee2896a04f74188024" upstream="morty" />
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="e3b7ea2133d0705b7e4e3ec1bb681df069fdd59e" upstream="morty" />
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" remote="yocto" revision="1d92cb1a20135cfffff9f94a6633ec0840518738" upstream="morty"/>
-  <project name="meta-openembedded" remote="openembedded" revision="fe5c83312de11e80b85680ef237f8acb04b4b26e" upstream="morty"/>
+  <project name="poky" remote="yocto" revision="1f5effb6a650c1c7007faf41c91e5cbfdf907a21" upstream="morty"/>
+  <project name="meta-openembedded" remote="openembedded" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6" upstream="morty"/>
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
@@ -49,15 +49,15 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" revision="morty_bsp_2.19" />
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" remote="yocto" revision="6add41510412ca196efb3e4f949d403a8b6f35d7" upstream="morty"/>
+  <project name="meta-intel" remote="yocto" revision="c781510a5a6b45e60cc32b6614ddcce3f1452121" upstream="morty"/>
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="fa774ad7fb797957601a8c9fee45af453fea34b7" upstream="morty"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="1879485e63ce369292c89b5902ff6df13509090b" upstream="morty"/>
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="05681fdf8298bb441c15135eae424c7601b07e98" upstream="morty"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="e55167c3c2770c07a475342f99cc2a3a23fbfa0c" upstream="morty"/>
   <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="82ea76062a501c5de80ca9d58680ef434f92a611" upstream="morty"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="dec3ca04a1c4fc8051e6aa1d106ddf264f35e559" upstream="morty"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" remote="yocto" revision="deca57ee5d35dba91b6be40cd2d5caaef6950b85" upstream="master"/>
@@ -72,7 +72,7 @@
   <project name="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" remote="yocto" revision="827aa31c1acbfe6b420554625788ba7c89966e07" upstream="morty"/>
+  <project name="meta-qcom" remote="yocto" revision="41c4856d6049fa1bc1b6d9d8c676eae54bbf58f3" upstream="morty"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
