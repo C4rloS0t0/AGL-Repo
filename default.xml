@@ -35,56 +35,65 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="090141edfc5883a2fe0ed1faece3ee2da957d115" upstream="pyro"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="71863b9c41caeba9bc4d602a55b981743d843a5d" upstream="rocko"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <!-- pinned due to changes in u-boot + image handling  - reeval for EE rc3-->
-  <project name="poky" path="poky" remote="yocto" revision="ebb625a140ef67d65dca1b262304377814eb8ed4" upstream="pyro" />
-  <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="c7f97f199a6dd54d3f369f0465a6bfd2cfa739b9" upstream="pyro" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="b2ce52334cf88e07f703cf25ced92302edd5b0e9" upstream="pyro" />
-  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="8a0173487504676e2897575cab858ab4c0f1ca09" upstream="pyro"/>
+  <project name="poky" path="poky" remote="yocto" revision="refs/tags/yocto-2.4.1" upstream="rocko" />
+  <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="c7f97f199a6dd54d3f369f0465a6bfd2cfa739b9" upstream="rocko" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="a65c1acb1822966c3553de9fc98d8bb6be705c4e" upstream="rocko" />
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="4277759428e96605b8dbe95a43891e217ae8d399" upstream="rocko"/>
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="c6aa602d0640040b470ee81de39726276ddc0ea3" upstream="pyro"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="db881bb4917628ad3eb1fa7c4f27915cf2ae60f4" upstream="rocko"/>
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="4cd63f57820ce0e4ebd598251d3a13b5a4b9b791" upstream="pyro"/>
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="5415ec29c7745fafb4b7311558d206f9c81fcae4" upstream="rocko"/>
 
   <!-- i.MX6 / e.g. wandboard specific things -->
+  <!--
   <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="06178400afbd641a6709473fd21d893dcd3cfbfa" upstream="pyro"/>
   <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="35badbde05d4f10d4faeefc30bc126b5bd228e2e" upstream="pyro"/>
   <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro"/>
+  -->
+  <!-- consolidate on meta-freescale from git.yoctoproject.org -->
+  <project name="meta-freescale" path="meta-freescale" remote="yocto" revision="71a54c7b50221800fa4c90c30a425c2f119db3bc" upstream="rocko"/>
 
   <!-- Boundary devices bsp layer -->
+  <!-- DISABLED. NO ROCKO BRANCH !
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="fb9bd92e4173ded438cd05f4c5c7f7d028d29cc7" upstream="pyro"/>
+  -->
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="230f5409bd47a850e718c81d485bb17b3d5ddcb0" upstream="master"/>
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="ed83a43c6a76875ee5f0388b3b60a28f2a373a10" upstream="rocko"/>
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="70d5bec59a3b8aabaa4a69f1d8513ff22d86b473" upstream="1.2.1"/>
 
   <!-- meta-rust -->
+  <!-- we should not need this anymore
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="94280a636c9a6dd729f9eb3ed88fe85b11ee8ffa" upstream="pyro"/>
+  -->
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="40447de4782d76f1e23e67ba05e272c27f6ec250" upstream="pyro"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="510009f0c825cd7992d2d37e9ed0007f6c3be723" upstream="rocko"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="e27bc2054557df848f22b05674e51f289491723b" upstream="pyro"/>
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="d1499bd50a3c91de0bf331009e0beed93739a926" upstream="rocko"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="d4bbb7ef016eab4ab04c3e794dfe6f4276196c66" upstream="master"/>
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="565d8443d6dcba4e25924ba049ba81e080f87884" upstream="rocko"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
-  <!-- use morty branch for CC and DD - conflicting changes in master-->
-  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="0fa0aff75ee21edd758a1baddc4522371a746f99" upstream="morty"/>
+  <!-- try master or disable -->
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="master"/>
 
   <!-- IoT Security layer -->
   <!-- fixed version since 3936bc3 removed cynara -->
+  <!-- use internal version
   <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
+  -->
 
   <!-- SmartDeviceLink layer -->
   <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="d9451f4d2dd1a3927b0ce5e55a4f0dc9a3daee27" />
