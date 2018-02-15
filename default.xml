@@ -89,11 +89,8 @@
   <!-- try master or disable -->
   <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="master"/>
 
-  <!-- IoT Security layer -->
-  <!-- fixed version since 3936bc3 removed cynara -->
-  <!-- use internal version
-  <project name="01org/meta-intel-iot-security" path="meta-intel-iot-security" remote="github" revision="20bbb97f6d5400b126ae96ef446c3e60c7e16285" />
-  -->
+  <!-- Security layer -->
+  <project name="meta-security" path="meta-security" remote="yocto" revision="master" />
 
   <!-- SmartDeviceLink layer -->
   <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="d9451f4d2dd1a3927b0ce5e55a4f0dc9a3daee27" />
