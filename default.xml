@@ -60,8 +60,7 @@
   <project name="meta-freescale" path="meta-freescale" remote="yocto" revision="71a54c7b50221800fa4c90c30a425c2f119db3bc" upstream="rocko"/>
 
   <!-- Boundary devices bsp layer -->
-  <!-- DISABLED. NO ROCKO BRANCH !
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="fb9bd92e4173ded438cd05f4c5c7f7d028d29cc7" upstream="pyro"/>
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f96f41b2e5beda2b51acb702d082568898b36a68" upstream="rocko"/>
   -->
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
