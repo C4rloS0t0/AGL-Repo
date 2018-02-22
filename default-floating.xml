@@ -92,5 +92,5 @@
   <project name="meta-security" path="meta-security" remote="yocto" revision="master" />
 
   <!-- SmartDeviceLink layer -->
-  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" upstream="4.4.0" />
+  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" upstream="release/4.4.0" />
 </manifest>
