@@ -12,7 +12,7 @@
   <remote name="openembedded"
           fetch="git://git.openembedded.org/" />
 
-  <!-- meta-rust --> <!-- freescale bsp --> <!-- 01.org -->
+  <!-- meta-updater --> <!-- freescale bsp --> <!-- 01.org -->
   <remote name="github" fetch="https://github.com/" />
 
   <!-- meta-qt5  -->
@@ -69,11 +69,6 @@
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="70d5bec59a3b8aabaa4a69f1d8513ff22d86b473" upstream="1.2.1"/>
-
-  <!-- meta-rust -->
-  <!-- we should not need this anymore
-  <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="94280a636c9a6dd729f9eb3ed88fe85b11ee8ffa" upstream="pyro"/>
-  -->
 
   <!-- rpi 2 and 3 -->
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="510009f0c825cd7992d2d37e9ed0007f6c3be723" upstream="rocko"/>
