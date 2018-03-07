@@ -78,7 +78,7 @@
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="565d8443d6dcba4e25924ba049ba81e080f87884" upstream="rocko"/>
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="094f4c84da21e199134056f41dcf69f92cacdbd9" upstream="rocko"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- try master or disable -->
