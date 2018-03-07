@@ -74,7 +74,7 @@
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="510009f0c825cd7992d2d37e9ed0007f6c3be723" upstream="rocko"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="d1499bd50a3c91de0bf331009e0beed93739a926" upstream="rocko"/>
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="7f06e9f1ce105b70a4bbec836626ba534f97f0f8" upstream="rocko"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
