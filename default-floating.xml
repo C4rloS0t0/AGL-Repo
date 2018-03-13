@@ -33,6 +33,7 @@
 
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v3.4.0"/>
 
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="rocko"/>
