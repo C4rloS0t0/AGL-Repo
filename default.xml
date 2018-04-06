@@ -23,10 +23,10 @@
            sync-j="4" />
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
-  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
-  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
-  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/jsmoeller/profiles"/>
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" revision="sandbox/jsmoeller/profiles"/>
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="sandbox/jsmoeller/profiles"/>
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" revision="sandbox/jsmoeller/profiles"/>
 
   <!-- Porter specific things. -->
   <project name="AGL/meta-renesas" path="meta-renesas" />
