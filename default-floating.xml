@@ -28,9 +28,6 @@
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
 
-  <!-- Porter specific things. -->
-  <project name="AGL/meta-renesas" path="meta-renesas" />
-
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
   <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="v3.7.0"/>
@@ -63,7 +60,6 @@
 
   <!-- Boundary devices bsp layer -->
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="rocko"/>
-  -->
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="rocko"/>
