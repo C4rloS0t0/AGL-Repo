@@ -7,10 +7,8 @@
          pushurl="ssh://gerrit.automotivelinux.org:29418"
   />
 
-  <remote name="yocto"
-          fetch="git://git.yoctoproject.org/" />
-  <remote name="openembedded"
-          fetch="git://git.openembedded.org/" />
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+  <remote name="openembedded" fetch="git://git.openembedded.org/" />
 
   <!-- meta-updater --> <!-- freescale bsp --> <!-- 01.org -->
   <remote name="github" fetch="https://github.com/" />
@@ -18,9 +16,7 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <default revision="master"
-           remote="agl"
-           sync-j="4" />
+  <default remote="agl" sync-j="4" revision="master"/>
 
   <!-- AGL things. -->
   <project name="AGL/meta-agl" path="meta-agl" />
