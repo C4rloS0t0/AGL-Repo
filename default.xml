@@ -64,7 +64,7 @@
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="70d5bec59a3b8aabaa4a69f1d8513ff22d86b473" upstream="1.2.1"/>
 
   <!-- rpi 2, 3 and 3 B+ -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="acfb857227f1216cd64767952f0c25d633df10b8" upstream="rocko"/>
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="9e08912bbaadaac9e1a15a3d003ca66d769cc9b9" upstream="rocko"/>
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="7f06e9f1ce105b70a4bbec836626ba534f97f0f8" upstream="rocko"/>
