@@ -58,7 +58,7 @@
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f96f41b2e5beda2b51acb702d082568898b36a68" upstream="rocko"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="3e1a03411f14603aa842915a1aa0fb060ffd6455" upstream="rocko"/>
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="ed83a43c6a76875ee5f0388b3b60a28f2a373a10" upstream="rocko"/>
 
   <!-- iotivity -->
   <project name="meta-oic" path="meta-oic" remote="yocto" revision="6e831e4bcdfa6ab8c26eb4fca4bdc98faf028818" upstream="1.2.1"/>
