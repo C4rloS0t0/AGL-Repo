@@ -30,7 +30,7 @@
 
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="ff555e8690eb47177ade42dc6912ae17a759cc45" upstream="rocko"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="e026abbf74a11a4a765a3d5ac945d2f6d5d7e3c7" upstream="rocko"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="697632ddd98ed7ae3dbd0bd84abb04079767bc56" upstream="rocko"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="refs/tags/yocto-2.4.3" upstream="rocko" />
