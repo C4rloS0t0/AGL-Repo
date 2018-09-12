@@ -16,7 +16,7 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <default remote="agl" sync-j="4" revision="master"/>
+  <default remote="agl" sync-j="4" revision="flounder"/>
 
   <!-- AGL things. -->
   <project name="AGL/meta-agl" path="meta-agl" />
