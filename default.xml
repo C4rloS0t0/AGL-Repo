@@ -38,8 +38,7 @@
   <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="090141edfc5883a2fe0ed1faece3ee2da957d115" upstream="pyro"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <!-- pinned due to changes in u-boot + image handling  - reeval for EE rc3-->
-  <project name="poky" path="poky" remote="yocto" revision="ebb42af2829edfca1a23c7a51a431c656ffc2090" upstream="pyro" />
+  <project name="poky" path="poky" remote="yocto" revision="b0ede5088b2f4338ea5faf5db46d67eb1c7e8243" upstream="pyro" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="b2ce52334cf88e07f703cf25ced92302edd5b0e9" upstream="pyro" />
   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="8a0173487504676e2897575cab858ab4c0f1ca09" upstream="pyro"/>
 
