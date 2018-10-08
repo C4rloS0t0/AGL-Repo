@@ -33,11 +33,11 @@
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" remote="yocto" revision="bfea1efa7b6e5abceac30da937adea4a2fa8d8d3" upstream="morty"/>
-  <project name="meta-openembedded" remote="openembedded" revision="b40116cf457b88a2db14b86fda9627fb34d56ae6" upstream="morty"/>
+  <project name="meta-openembedded" remote="openembedded" revision="997caf9146cd3797cd054e2adebd1fbb4df91911" upstream="morty"/>
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="5f837b47f5c3e462f24cd5abf58ff6ef1dd04932"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="631ea6373ca3ffb0e17968dfcd6f3171f95bbac6" upstream="pyro"/>
   <!-- switch from opensource project meta-qt5 to vendor-maintained repo -->
   <!-- QT uses vendor branch 5.8 -->
   <!--<project name="yocto/meta-qt5" path="meta-qt5" remote="qt.io" revision="5.8" />-->
@@ -52,7 +52,7 @@
   <project name="meta-intel" remote="yocto" revision="c781510a5a6b45e60cc32b6614ddcce3f1452121" upstream="morty"/>
 
   <!-- i.MX6 / e.g. wandboard specific things -->
-  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="05681fdf8298bb441c15135eae424c7601b07e98" upstream="morty"/>
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="d55e16bc476982dfb9415bf696ed35e84068a433" upstream="morty"/>
   <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="e55167c3c2770c07a475342f99cc2a3a23fbfa0c" upstream="morty"/>
   <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="morty"/>
 
@@ -60,7 +60,7 @@
   <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="dec3ca04a1c4fc8051e6aa1d106ddf264f35e559" upstream="morty"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" remote="yocto" revision="deca57ee5d35dba91b6be40cd2d5caaef6950b85" upstream="master"/>
+  <project name="meta-ti" remote="yocto" revision="92ef1e0b22bc10b67320ca59b40fe53d9dea6bc7" upstream="morty"/>
 
   <!-- iotivity -->
   <project name="meta-oic" remote="yocto" revision="028a5c234fb9fe51b39db339f7d4250fba978198" upstream="1.2.0"/>
@@ -69,10 +69,10 @@
   <project name="meta-rust/meta-rust" path="meta-rust" remote="github" revision="a506df4ba4b186e311117d5bdc6a54844583a4fd" />
 
   <!-- rpi 2 and 3 -->
-  <project name="meta-raspberrypi" remote="yocto" revision="28d4404f89eb59d406b4976c0e3f5ca19137ba74"/>
+  <project name="meta-raspberrypi" remote="yocto" revision="2a192261a914892019f4f428d7462bb3c585ebac"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" remote="yocto" revision="41c4856d6049fa1bc1b6d9d8c676eae54bbf58f3" upstream="morty"/>
+  <project name="meta-qcom" remote="yocto" revision="16032f686a5290b1828e9ecb4054d0e359209e18" upstream="morty"/>
 
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
