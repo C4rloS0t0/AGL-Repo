@@ -35,7 +35,8 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="090141edfc5883a2fe0ed1faece3ee2da957d115" upstream="pyro"/>
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="eece3ab3b0deb2cfd8406da7843828473e7d1c35" upstream="pyro"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="035a7fc1fbc6b516b61af66a10e62b1b8fde6d86" upstream="pyro"/>
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="b0ede5088b2f4338ea5faf5db46d67eb1c7e8243" upstream="pyro" />
