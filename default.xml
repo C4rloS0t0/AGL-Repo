@@ -33,7 +33,7 @@
   <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="697632ddd98ed7ae3dbd0bd84abb04079767bc56" upstream="rocko"/>
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="05711ba18587aaaf4a9c465a1dd4537f27ceda93" upstream="rocko" />
+  <project name="poky" path="poky" remote="yocto" revision="68a612b7d31d270348ef5439d7f779c309bdb6ec" upstream="rocko" />
   <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="f875c60ecd6f30793b80a431a2423c4b98e51548" upstream="rocko" />
   <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko" />
   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="bd77388f31929f38e7d4cc9c711f0f83f563007e" upstream="rocko"/>
