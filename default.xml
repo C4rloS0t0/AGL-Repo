@@ -40,7 +40,7 @@
 
   <!-- Qt things -->
   <!-- Qt 5.8 -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"/>
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="d8b531530fa42b59aa0a5b123d87a30d749cbcc4" upstream="rocko"/>
 
   <!-- MinnowBoard MAX specific things -->
   <project name="meta-intel" path="meta-intel" remote="yocto" revision="718bb384942675437c081f6795da7f421da1fee6" upstream="rocko"/>
