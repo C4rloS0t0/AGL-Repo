@@ -83,4 +83,7 @@
 
   <!-- SmartDeviceLink layer -->
   <project name="phongt/meta-sdl" path="meta-sdl" remote="github" upstream="release/4.4.0" />
+
+  <!-- meta-spdxscanner - support for fossology -->
+  <project name="dl9pf/meta-spdxscanner" path="meta-spdxscanner" remote="github" revision="master"/>
 </manifest>
