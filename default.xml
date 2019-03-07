@@ -61,9 +61,6 @@
   <!-- ti vayu / jacinto 6 / DRA7 -->
   <project name="meta-ti" path="meta-ti" remote="yocto" revision="ed83a43c6a76875ee5f0388b3b60a28f2a373a10" upstream="rocko"/>
 
-  <!-- iotivity -->
-  <project name="meta-oic" path="meta-oic" remote="yocto" revision="6e831e4bcdfa6ab8c26eb4fca4bdc98faf028818" upstream="1.2.1"/>
-
   <!-- rpi 2, 3 and 3 B+ -->
   <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8e4c537d84fdde8e3b4642d0dda2c0f4af76d52f" upstream="rocko"/>
 
