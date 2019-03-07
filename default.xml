@@ -71,10 +71,6 @@
   <!-- https://github.com/kraj/meta-altera -->
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="2fdcab3bf66f771bea9a3877bddb825195d56e0f" upstream="rocko"/>
 
-  <!-- Image Security Analysis FrameWork (isafw) -->
-  <!-- try master or disable -->
-  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="489abdc65cefb566d696c8b218aa0b9b99a350ae" upstream="master"/>
-
   <!-- Security layer -->
   <project name="meta-security" path="meta-security" remote="yocto" revision="8f6969a775fa6afbf553e72ba83e71197780b2d8" upstream="master"/>
 
