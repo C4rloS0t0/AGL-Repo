@@ -16,6 +16,9 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
+  <!-- Sancloud BitBucket -->
+  <remote name="sancloud" fetch="https://bitbucket.sancloud.co.uk/scm/"/>
+
   <default remote="agl" sync-j="4" revision="guppy"/>
 
   <!-- AGL things. -->
@@ -73,6 +76,10 @@
   <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
   <!-- https://github.com/kraj/meta-altera -->
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="rocko"/>
+
+  <!-- Sancloud BSP layers -->
+  <project name="yb/meta-sancloud" path="meta-sancloud" remote="sancloud" revision="rocko"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- try master or disable -->
