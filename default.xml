@@ -24,6 +24,7 @@
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
   <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+  <project name="AGL/meta-agl-telematics-demo" path="meta-agl-telematics-demo" />
 
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" />
