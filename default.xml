@@ -78,8 +78,10 @@
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="2fdcab3bf66f771bea9a3877bddb825195d56e0f" upstream="rocko"/>
 
   <!-- Sancloud BSP layers -->
+<!--
   <project name="yb/meta-sancloud" path="meta-sancloud" remote="sancloud" revision="388671ab29b7cf7e688afd043f8a43e21adc5f73" upstream="rocko"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
+-->
 
   <!-- Image Security Analysis FrameWork (isafw) -->
   <!-- try master or disable -->
