@@ -71,6 +71,10 @@
   <!-- https://github.com/kraj/meta-altera -->
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="thud"/>
 
+  <!-- Sancloud BSP layers -->
+  <project name="SanCloudLtd/meta-sancloud" path="meta-sancloud" remote="github" revision="thud"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
+
   <!-- Security layer -->
   <project name="meta-security" path="meta-security" remote="yocto" revision="thud"/>
 
