@@ -16,9 +16,6 @@
   <!-- meta-qt5  -->
   <remote name="qt.io" fetch="git://code.qt.io/" />
 
-  <!-- Sancloud BitBucket -->
-  <remote name="sancloud" fetch="https://bitbucket.sancloud.co.uk/scm/"/>
-
   <default remote="agl" sync-j="4" revision="flounder"/>
 
   <!-- AGL things. -->
@@ -78,7 +75,7 @@
   <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="14e08a419cb9d4017f40360c14fcc3c2c1ce8e42" upstream="rocko"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="yb/meta-sancloud" path="meta-sancloud" remote="sancloud" revision="2f2215bf0c82485ebbe77a8d9161fceed6651258" upstream="rocko"/>
+  <project name="SanCloudLtd/meta-sancloud" path="meta-sancloud" remote="github" revision="21d3f03519aa4c3a84dd821a07ff12ff9510e70e" upstream="rocko"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
 
   <!-- Image Security Analysis FrameWork (isafw) -->
