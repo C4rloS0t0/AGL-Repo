@@ -7,8 +7,7 @@
          pushurl="ssh://gerrit.automotivelinux.org:29418"
   />
 
-  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
-  <remote name="openembedded" fetch="git://git.openembedded.org/" />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
 
   <!-- meta-updater --> <!-- freescale bsp --> <!-- 01.org -->
   <remote name="github" fetch="https://github.com/" />
@@ -37,7 +36,7 @@
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="poky" remote="yocto" revision="68a612b7d31d270348ef5439d7f779c309bdb6ec" upstream="rocko" />
   <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="f875c60ecd6f30793b80a431a2423c4b98e51548" upstream="rocko" />
-  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko" />
   <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="bd77388f31929f38e7d4cc9c711f0f83f563007e" upstream="rocko"/>
 
   <!-- Qt things -->
