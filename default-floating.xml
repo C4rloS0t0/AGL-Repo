@@ -32,66 +32,66 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="poky" remote="yocto" revision="thud" />
-  <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="thud" />
-  <project name="openembedded/meta-openembedded" path="meta-openembedded" remote="github" revision="thud" />
+  <project name="poky" path="external/poky" remote="yocto" revision="thud" />
+  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="thud" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="thud" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="thud"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="thud"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="thud"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="thud"/>
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="thud"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="thud"/>
+  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="thud"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="thud"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="meta-security" remote="yocto" revision="thud"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="thud"/>
 
   <!-- SmartDeviceLink layer -->
-  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="thud"/>
+  <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="thud"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="dl9pf/meta-spdxscanner" path="meta-spdxscanner" remote="github" revision="master"/>
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="master"/>
 
 
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3" />
-  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="thud-v3.15.0"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="external/meta-renesas-rcar-gen3" />
+  <project name="CogentEmbedded/meta-rcar" path="external/meta-rcar" remote="github" revision="thud-v3.15.0"/>
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="meta-intel" remote="yocto" revision="thud"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="thud"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="meta-freescale" remote="yocto" revision="thud"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="thud"/>
 
   <!-- Boundary devices bsp layer -->
-  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="master"/>
+  <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="master"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="meta-ti" remote="yocto" revision="thud"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="thud"/>
 
   <!-- rpi 2, 3 and 3 B+ -->
-  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="thud"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="thud"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="thud"/>
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="thud"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="thud"/>
+  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="thud"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="meta-sancloud" remote="github" revision="thud"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="master"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="thud"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="meta-synopsys" remote="github" revision="thud-agl"/>
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="thud-agl"/>
 
 </manifest>
