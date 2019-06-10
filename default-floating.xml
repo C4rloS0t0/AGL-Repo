@@ -70,6 +70,7 @@
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="thud"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="thud"/>
 
   <!-- Boundary devices bsp layer -->
   <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="master"/>
