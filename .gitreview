@@ -2,4 +2,5 @@
 host=gerrit.automotivelinux.org
 port=29418
 project=AGL/AGL-repo
-defaultbranch=master
+defaultbranch=halibut
+
