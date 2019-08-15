@@ -31,18 +31,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="e7f0177ef3b6e06b8bc1722fca0241fef08a1530" upstream="thud" />
+  <project name="poky" path="external/poky" remote="yocto" revision="d43a86de1a37ce9daede726a49231547a21429a5" upstream="thud" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="aabc30f3bd03f97326fb8596910b94639fea7575" upstream="thud" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="4cd3a39f22a2712bfa8fc657d09fe2c7765a4005" upstream="thud" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="9b3b907f30b0d5b92d58c7e68289184fda733d3e" upstream="thud" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="9e8c0c96b443828a255e7d6ca6291598347672ac" upstream="thud"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="bbc38dc9d6d02e73c08df289bb22a292c2264e9b" upstream="thud"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="81937713f774d7dea854b22987b3ef1ab1f1cdbe" upstream="thud"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
 
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="2d2e46834af68b1c22ad0a022001c117caa4929c" upstream="thud"/>
@@ -55,7 +55,7 @@
   <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="ab1e345171e799216b8fcb432943a2de5ff66f5f" upstream="thud"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="2dd8b88071268a5922696db36a9ba8be96a9e0ef" upstream="master"/>
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="483f79e66eb76b0f1bebe1e3a0a0327b0ba59f16" upstream="thud"/>
 
 
   <!-- BSPs -->
@@ -65,7 +65,7 @@
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="5aecbd92ce06c179efa9dca9127c09219018bc4b" upstream="thud-v3.15.0"/>
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="27dadcfc7bc0de70328b02fecb841608389d22fc" upstream="thud"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="278f0b5fa2f1836635178bdc770e035d77ae03c7" upstream="thud"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
@@ -81,11 +81,11 @@
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="c71d79efc5a06a0c896c278c94f5b14413bb4d69" upstream="thud"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="8ac86cd465d73da78e24620e4695176138d17fc3" upstream="thud"/>
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="d0a58e836444a7118acfc5a99d8cacaa5ae09f5c" upstream="thud"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="f07030bb6ff2062031e06efe9831b76c7250b32e" upstream="thud"/>
+  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="8a1d00568078790dac6fc0d94ed199b850f3bb75" upstream="thud"/>
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="9b837baf403ab7c38de2e05e8c3183e1ab54cfd3" upstream="thud"/>
@@ -94,5 +94,4 @@
   <!-- meta-synopsys - support for ARC HSDK board -->
   <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="702a0e826e87796aefa97abc1de0217d3775fd13" upstream="thud-agl"/>
 
-  
 </manifest>
