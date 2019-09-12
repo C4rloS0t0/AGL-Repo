@@ -58,6 +58,9 @@
   <!-- meta-spdxscanner - support for fossology -->
   <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="483f79e66eb76b0f1bebe1e3a0a0327b0ba59f16" upstream="thud"/>
 
+  <!-- Alexa Auto SDK layer -->
+  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
+
 
   <!-- BSPs -->
 
