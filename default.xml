@@ -82,7 +82,7 @@
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2da08ed8b2f4a29fb7d45e769171ea5bb79cf0b2" upstream="thud"/>
 
   <!-- rpi 2, 3 and 3 B+ -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="c71d79efc5a06a0c896c278c94f5b14413bb4d69" upstream="thud"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="4e5be97d75668804694412f9b86e9291edb38b9d" upstream="thud"/>
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="d0a58e836444a7118acfc5a99d8cacaa5ae09f5c" upstream="thud"/>
