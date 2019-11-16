@@ -79,7 +79,7 @@
   <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
 
   <!-- ti vayu / jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="850d2b608c2d9d4d1c03396cc61e443b364a6b4e" upstream="thud"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="727411f95ef1f66034beac08702f21b30a1b84c9" upstream="thud"/>
 
   <!-- rpi 2, 3 and 3 B+ -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="4e5be97d75668804694412f9b86e9291edb38b9d" upstream="thud"/>
