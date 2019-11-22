@@ -31,32 +31,32 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="51f6145f8f99a02df1dad937684f014b0172e72a" upstream="thud" />
-  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="aabc30f3bd03f97326fb8596910b94639fea7575" upstream="thud" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="446bd615fd7cb9bc7a159fe5c2019ed08d1a7a93" upstream="thud" />
+  <project name="poky" path="external/poky" remote="yocto" revision="c9a1a608f5146e5dcfebc8e566cb7f6388a3986f" upstream="warrior" />
+  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="d5d9fc9a4bbd365d6cd6fe4d6a8558f7115c17da" upstream="warrior" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="a24acf94d48d635eca668ea34598c6e5c857e3f8" upstream="warrior" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="7685c7d415e0002c448007960837ae8898cd57a5" upstream="thud"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="bda5b6ab326a4926aedd32f137de5f3837c8cdb8" upstream="warrior"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="1520d5b2b2beec5e1c3209d3178219e93ef08bca" upstream="thud"/>
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="e4dd74565f429b576e84972d12cc1ae2048be119" upstream="thud"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="214e14c4c45625842e542eebd696f903060d488f" upstream="thud"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="062194613515d4bf7d130f21ba3a0e1a2f0bb461" upstream="thud"/>
+  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="8d340b0cc95bf98e844bd550bd779ae4fe772d9f" upstream="warrior"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="4be5a09e5359ac777c9a56df77a5f4258578ac66" upstream="warrior"/>
+  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="75decca38c5f3563510af42c758a38e19207c278" upstream="warrior"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" upstream="thud"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="4f7be0d252f68d8e8d442a7ed8c6e8a852872d28" upstream="warrior"/>
 
   <!-- SmartDeviceLink layer -->
   <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="ab1e345171e799216b8fcb432943a2de5ff66f5f" upstream="thud"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="483f79e66eb76b0f1bebe1e3a0a0327b0ba59f16" upstream="thud"/>
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="9760f9f86b8350469e1e8626f968901c5389e6b3" upstream="warrior"/>
 
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
