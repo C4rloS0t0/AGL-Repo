@@ -53,7 +53,7 @@
 
   <!-- Security layer -->
 <!-- Needs update / review ?!!! -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" upstream="thud"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="27ddb455543b670097e252ba0d0ad5b7e4101748" upstream="zeus"/>
 
   <!-- SmartDeviceLink layer -->
 <!-- no zeus branch. FIXME
