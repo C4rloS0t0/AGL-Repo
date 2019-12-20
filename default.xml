@@ -56,7 +56,7 @@
   <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="ab1e345171e799216b8fcb432943a2de5ff66f5f" upstream="thud"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="483f79e66eb76b0f1bebe1e3a0a0327b0ba59f16" upstream="thud"/>
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="a73c7581aa3076f2d21b3db754aacd85de3294ec" upstream="master"/>
 
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
