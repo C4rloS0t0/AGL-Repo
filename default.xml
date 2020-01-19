@@ -31,28 +31,25 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="94f6b31befda5c496f65e863a6f8152b42d7ebf0" upstream="zeus" />
-  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="9ca96786fd851150b518388bcb166efa0b4dfff9" upstream="zeus" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="aad5b3d070cd8c58828b0975cf861d8ebc90f460" upstream="zeus" />
+  <project name="poky" path="external/poky" remote="yocto" revision="cf92a2d567260b91a259652bad0ecd790750f710" upstream="zeus" />
+  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="0f4eecc000f66d114ad258fa31aed66afa292166" upstream="zeus" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="062d9f1f4faf2ca8a1fe78b7c7365e6378c15836" upstream="zeus"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="f4262ab75d36a06c528cc1630b48b817fb0acf8f" upstream="zeus"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="653e12fdb522c19a7467acb85a77d8b3477671cb" upstream="zeus"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="a582fd4c810529e9af0c81700407b1955d1391d2" upstream="zeus"/>
 
   <!-- Updater layers. --> 
-<!-- no zeus branch, yet ! FIXME
-  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="22165a78b34583c1389c0c9c5841c5377bad6e10" upstream="master"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="f74b5b626a6fe3c8c0fd53d0fa576cd6934c2f09" upstream="master"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="699196bd642fd53cb678b072656c1a498de90eae" upstream="master"/>
--->
+  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="a6ef1ed2784fde198baef0e6b12e4b0d86e8bb66" upstream="zeus"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="c3ec073527518f9f90e42286cf3b41cb837c881c" upstream="zeus"/>
+  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="bc36a8f6cc578a97cb4b1e42f1d24bc97c5be8e0" upstream="zeus"/>
 
   <!-- Security layer -->
-<!-- Needs update / review ?!!! -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="27ddb455543b670097e252ba0d0ad5b7e4101748" upstream="zeus"/>
 
   <!-- SmartDeviceLink layer -->
@@ -77,35 +74,28 @@
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="f18e57aa484b3a02e9bb483089905dd15f028e22" upstream="thud-v3.19.0"/>
 -->
 
-  <!-- MinnowBoard MAX specific things -->
-<!-- To be merged with qemux86-64 target. FIXME zeus
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="278f0b5fa2f1836635178bdc770e035d77ae03c7" upstream="thud"/>
--->
+  <!-- MinnowBoard MAX / Upsquared specific things -->
+<!-- FIXME: To be merged with qemux86-64 target! -->
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="b04e1edb9300a57e200a187a3255f67b50519202" upstream="zeus"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-<!-- FIXME zeus
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"/>
--->
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="0eb21f9d0d023fbb054e284986815510a84dbd66" upstream="zeus"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="aea3771baa77e74762358ceb673d407e36637e5f" upstream="zeus"/>
 
-  <!-- Boundary devices bsp layer -->
+  <!-- Boundary devices BSP layer -->
 <!-- FIXME zeus 
   <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
 -->
 
-  <!-- ti vayu / jacinto 6 / DRA7 -->
-<!-- FIXME zeus - check supported boards
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2da08ed8b2f4a29fb7d45e769171ea5bb79cf0b2" upstream="thud"/>
--->
+  <!-- TI Vayu / Jacinto 6 / DRA7 -->
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2251edb9b93aef4dfcd8a0f7b3ec4e1ddeb970af" upstream="master"/>
 
-  <!-- rpi 2, 3 and 3 B+ -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="cee2557dc872ddaf721e6badb981c7772503f8ea" upstream="zeus"/>
+  <!-- Raspberry Pi 3, 3B+, and 4 -->
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="85b75588fdedf72242870628f7c22f034d308740" upstream="zeus"/>
 
 
   <!-- DragonBoard 410c specific things -->
-<!-- FIXME zeus - check board status (410c, 820c, 845c)
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="d0a58e836444a7118acfc5a99d8cacaa5ae09f5c" upstream="thud"/>
--->
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="3e49f579152aac859f70de5f2dda24b84465d2e8" upstream="zeus"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
