@@ -69,10 +69,8 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-<!-- FIXME zeus
-  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="f18e57aa484b3a02e9bb483089905dd15f028e22" upstream="thud-v3.19.0"/>
--->
+  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="05b94a3b4e1cafc508a529f949ee2631a5a32e24" upstream="zeus-Yocto-v3.21.0"/>
 
   <!-- MinnowBoard MAX / Upsquared specific things -->
 <!-- FIXME: To be merged with qemux86-64 target! -->
