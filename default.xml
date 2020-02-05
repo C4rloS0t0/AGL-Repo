@@ -61,6 +61,9 @@
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
 
+  <!-- clang support -->
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="22f0b0eaad454279c604a83dba53be6e6efb1a06" upstream="thud"/>
+
 
   <!-- BSPs -->
 
