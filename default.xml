@@ -58,10 +58,10 @@
 -->
 
   <!-- meta-spdxscanner - support for fossology -->
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="a73c7581aa3076f2d21b3db754aacd85de3294ec" upstream="master"/>
 
-<!-- FIXME zeus
-  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="483f79e66eb76b0f1bebe1e3a0a0327b0ba59f16" upstream="thud"/>
--->
+  <!-- Alexa Auto SDK layer -->
+  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
 
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="9cab6bc46cf44d13f8fea3b827e298a4f6e16b17" upstream="zeus"/>
@@ -77,7 +77,7 @@
   <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="b04e1edb9300a57e200a187a3255f67b50519202" upstream="zeus"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="0eb21f9d0d023fbb054e284986815510a84dbd66" upstream="zeus"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="610f109acc264d5b0bd79aefcfa61b72456da90a" upstream="zeus"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="aea3771baa77e74762358ceb673d407e36637e5f" upstream="zeus"/>
 
   <!-- Boundary devices BSP layer -->
@@ -86,20 +86,17 @@
 -->
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2251edb9b93aef4dfcd8a0f7b3ec4e1ddeb970af" upstream="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="19a73c96bd05a74711a36a61077e8a7b88b55c63" upstream="zeus"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="85b75588fdedf72242870628f7c22f034d308740" upstream="zeus"/>
 
-
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="3e49f579152aac859f70de5f2dda24b84465d2e8" upstream="zeus"/>
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="01df13dfce2753465c8eff6d2bccfb0eb412cd34" upstream="zeus"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
-<!-- FIXME zeus - check if build/boot
-  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="8a1d00568078790dac6fc0d94ed199b850f3bb75" upstream="thud"/>
--->
+  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="acc930857608eb4750015257084e3ee0ef2af74b" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
 <!-- FIXME zeus - no zeus layer, yet.
