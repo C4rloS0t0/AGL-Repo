@@ -56,7 +56,7 @@
   <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="ab1e345171e799216b8fcb432943a2de5ff66f5f" upstream="thud"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="a73c7581aa3076f2d21b3db754aacd85de3294ec" upstream="master"/>
+  <project name="dl9pf/meta-spdxscanner" path="external/meta-spdxscanner" remote="github" revision="0feeb60abc03e603838042afbbbbdb6126c788f8" upstream="master"/>
 
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
@@ -69,11 +69,11 @@
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="e9bf7907fcf1f3013705de10a37b7561f6660e3c" upstream="thud-v3.21.0"/>
 
   <!-- MinnowBoard MAX specific things -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="278f0b5fa2f1836635178bdc770e035d77ae03c7" upstream="thud"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="a930f946b915624dcc02358725d235b3224fb61b" upstream="thud"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f5c932229c31b612cba38c2ed6f3c3ec6b800e92" upstream="thud"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c4b5ac6b20e4245ce0630e9197313aaef999a331" upstream="thud"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="c7ab72d894cf5ca887832e163bc27719e045e047" upstream="thud"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="545e8094a140231e78b9284c3a3d94fcc573ae98" upstream="thud"/>
 
   <!-- Boundary devices bsp layer -->
   <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
@@ -92,10 +92,10 @@
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="8a1d00568078790dac6fc0d94ed199b850f3bb75" upstream="thud"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="9b837baf403ab7c38de2e05e8c3183e1ab54cfd3" upstream="thud"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="f91b336cc0b0a8be17940559fc8a433813429b76" upstream="thud"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="174c9bacc4af9873bfbecf618e331c6d464540bf" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="c4fb64eba16782524448c8287656b907633fd0ed" upstream="halibut-agl"/>
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="702a0e826e87796aefa97abc1de0217d3775fd13" upstream="halibut-agl"/>
 
 </manifest>
