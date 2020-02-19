@@ -47,7 +47,7 @@
   <!-- Updater layers. -->
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="b3e96c54e1d1b16ee8e1df335599a41001650e39" upstream="thud"/>
   <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="ede8396667508eaeb18db4a6e8544f5d1280e0df" upstream="thud"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="ef5e2c20b617e3934e040f3f543f772dd5eabb90" upstream="thud"/>
+  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="16e5f35e790f75a499b4e5526ee4bcb0bf695163" upstream="thud"/>
 
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="31dc4e7532fa7a82060e0b50e5eb8d0414aa7e93" upstream="thud"/>
