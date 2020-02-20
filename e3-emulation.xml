@@ -101,4 +101,6 @@
   <!-- meta-synopsys - support for ARC HSDK board -->
   <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="c4fb64eba16782524448c8287656b907633fd0ed" upstream="halibut-agl"/>
 
+  <!-- Add iotbzh layer -->
+  <project name="iotbzh/meta-iot-bzh" path="meta-iot-bzh" remote="github" revision="sandbox/pmarzin/e3-emulation"/>
 </manifest>
