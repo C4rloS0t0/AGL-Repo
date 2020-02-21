@@ -11,7 +11,7 @@
   <remote name="github" fetch="https://github.com/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="master"/>
+  <default remote="agl" sync-j="4" revision="next"/>
 
 
   <!-- CORE -->
