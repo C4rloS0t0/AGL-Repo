@@ -99,10 +99,8 @@
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="acc930857608eb4750015257084e3ee0ef2af74b" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
-<!-- FIXME zeus - no zeus layer, yet.
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="9b837baf403ab7c38de2e05e8c3183e1ab54cfd3" upstream="thud"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
--->
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="f2e6ca70f3fda6f953423be958cc6fdc2b11e9dd" upstream="zeus"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="174c9bacc4af9873bfbecf618e331c6d464540bf" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
 <!-- FIXME zeus - no zeus layer, yet
