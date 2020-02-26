@@ -31,9 +31,9 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="cf92a2d567260b91a259652bad0ecd790750f710" upstream="zeus" />
+  <project name="poky" path="external/poky" remote="yocto" revision="5e1f52edb7a9f790fb6cb5d96502f3690267c1b1" upstream="zeus" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="0f4eecc000f66d114ad258fa31aed66afa292166" upstream="zeus" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="e855ecc6d35677e79780adc57b2552213c995731" upstream="zeus" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="bb65c27a772723dfe2c15b5e1b27bcc1a1ed884c" upstream="zeus" />
 
 
   <!-- UPSTREAM COMPONENTS -->
