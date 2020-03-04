@@ -77,7 +77,7 @@
   <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="b04e1edb9300a57e200a187a3255f67b50519202" upstream="zeus"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="610f109acc264d5b0bd79aefcfa61b72456da90a" upstream="zeus"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="db6cdd204764228a2f45f45c346dc026a70c6423" upstream="zeus"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="aea3771baa77e74762358ceb673d407e36637e5f" upstream="zeus"/>
 
   <!-- Boundary devices BSP layer -->
