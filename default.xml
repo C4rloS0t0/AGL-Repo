@@ -80,13 +80,8 @@
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="db6cdd204764228a2f45f45c346dc026a70c6423" upstream="zeus"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="aea3771baa77e74762358ceb673d407e36637e5f" upstream="zeus"/>
 
-  <!-- Boundary devices BSP layer -->
-<!-- FIXME zeus 
-  <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="4ea73c57f125ff0b8c3e17e5cc5d07b6168bbd6c" upstream="master"/>
--->
-
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="19a73c96bd05a74711a36a61077e8a7b88b55c63" upstream="zeus"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="eeb453a3c219204f5d422045766ceb7a90f725fe" upstream="zeus"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="85b75588fdedf72242870628f7c22f034d308740" upstream="zeus"/>
