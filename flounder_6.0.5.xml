@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+         review="https://gerrit.automotivelinux.org/gerrit/"
+         pushurl="ssh://gerrit.automotivelinux.org:29418"
+  />
+
+  <remote name="yocto" fetch="git://git.yoctoproject.org/" />
+  <remote name="openembedded" fetch="git://git.openembedded.org/" />
+
+  <!-- meta-updater --> <!-- freescale bsp --> <!-- 01.org -->
+  <remote name="github" fetch="https://github.com/" />
+
+  <!-- meta-qt5  -->
+  <remote name="qt.io" fetch="git://code.qt.io/" />
+
+  <!-- Sancloud BitBucket -->
+  <remote name="sancloud" fetch="https://bitbucket.sancloud.co.uk/scm/"/>
+
+  <default remote="agl" sync-j="4" revision="refs/tags/flounder/6.0.5"/>
+
+  <!-- AGL things. -->
+  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+
+  <!-- Renesas Gen3 specific things -->
+  <project name="AGL/meta-renesas-rcar-gen3" path="meta-renesas-rcar-gen3"/>
+  <project name="CogentEmbedded/meta-rcar" path="meta-rcar" remote="github" revision="b9be2cd1ed7e6fe3662cf99001a0fabc51652ecf" upstream="v3.9.0"/>
+
+  <!-- Updater layers. -->
+  <project name="advancedtelematic/meta-updater" path="meta-updater" remote="github" revision="ff555e8690eb47177ade42dc6912ae17a759cc45" upstream="rocko"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="meta-updater-qemux86-64" remote="github" revision="697632ddd98ed7ae3dbd0bd84abb04079767bc56" upstream="rocko"/>
+
+  <!-- Yocto/OpenEmbedded things. -->
+  <project name="poky" path="poky" remote="yocto" revision="68a612b7d31d270348ef5439d7f779c309bdb6ec" upstream="rocko" />
+  <project name="meta-gplv2" path="meta-gplv2" remote="yocto" revision="f875c60ecd6f30793b80a431a2423c4b98e51548" upstream="rocko" />
+  <project name="meta-openembedded" path="meta-openembedded" remote="openembedded" revision="eae996301d9c097bcbeb8046f08041dc82bb62f8" upstream="rocko" />
+  <project name="meta-virtualization" path="meta-virtualization" remote="yocto" revision="bd77388f31929f38e7d4cc9c711f0f83f563007e" upstream="rocko"/>
+
+  <!-- Qt things -->
+  <!-- Qt 5.8 -->
+  <project name="meta-qt5/meta-qt5" path="meta-qt5" remote="github" revision="682ad61c071a9710e9f9d8a32ab1b5f3c14953d1" upstream="rocko"/>
+
+  <!-- MinnowBoard MAX specific things -->
+  <project name="meta-intel" path="meta-intel" remote="yocto" revision="718bb384942675437c081f6795da7f421da1fee6" upstream="rocko"/>
+
+  <!-- i.MX6 / e.g. wandboard specific things -->
+  <!--
+  <project name="Freescale/meta-freescale" path="meta-freescale" remote="github" revision="06178400afbd641a6709473fd21d893dcd3cfbfa" upstream="pyro"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="meta-freescale-3rdparty" remote="github" revision="35badbde05d4f10d4faeefc30bc126b5bd228e2e" upstream="pyro"/>
+  <project name="Freescale/meta-freescale-distro" path="meta-freescale-distro" remote="github" revision="cd5c7a2539f40004f74126e9fdf08254fd9a6390" upstream="pyro"/>
+  -->
+  <!-- consolidate on meta-freescale from git.yoctoproject.org -->
+  <project name="meta-freescale" path="meta-freescale" remote="yocto" revision="a4158e3425a79720ddc4c02e76251d567bdceb51" upstream="rocko"/>
+
+  <!-- Boundary devices bsp layer -->
+  <project name="boundarydevices/meta-boundary" path="meta-boundary" remote="github" revision="f96f41b2e5beda2b51acb702d082568898b36a68" upstream="rocko"/>
+
+  <!-- ti vayu / jacinto 6 / DRA7 -->
+  <project name="meta-ti" path="meta-ti" remote="yocto" revision="ed83a43c6a76875ee5f0388b3b60a28f2a373a10" upstream="rocko"/>
+
+  <!-- iotivity -->
+  <project name="meta-oic" path="meta-oic" remote="yocto" revision="6e831e4bcdfa6ab8c26eb4fca4bdc98faf028818" upstream="1.2.1"/>
+
+  <!-- rpi 2, 3 and 3 B+ -->
+  <project name="meta-raspberrypi" path="meta-raspberrypi" remote="yocto" revision="8e4c537d84fdde8e3b4642d0dda2c0f4af76d52f" upstream="rocko"/>
+
+  <!-- DragonBoard 410c specific things -->
+  <project name="meta-qcom" path="meta-qcom" remote="yocto" revision="68d67447ec83de4784203afa016c49538165532d" upstream="rocko"/>
+
+  <!-- Altera SOCFPGA platform --> <!-- pinned to version from master until branch for morty exists -->
+  <!-- https://github.com/kraj/meta-altera -->
+  <project name="kraj/meta-altera" path="meta-altera" remote="github" revision="14e08a419cb9d4017f40360c14fcc3c2c1ce8e42" upstream="rocko"/>
+
+  <!-- Sancloud BSP layers -->
+  <project name="yb/meta-sancloud" path="meta-sancloud" remote="sancloud" revision="2f2215bf0c82485ebbe77a8d9161fceed6651258" upstream="rocko"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="meta-rtlwifi" remote="github" revision="fd7ca0ca47c7095ced62a5a7cdef040dff87fb76" upstream="master"/>
+
+  <!-- Image Security Analysis FrameWork (isafw) -->
+  <!-- try master or disable -->
+  <project name="01org/meta-security-isafw" path="meta-security-isafw" remote="github" revision="489abdc65cefb566d696c8b218aa0b9b99a350ae" upstream="master"/>
+
+  <!-- Security layer -->
+  <project name="meta-security" path="meta-security" remote="yocto" revision="8f6969a775fa6afbf553e72ba83e71197780b2d8" upstream="master"/>
+
+  <!-- SmartDeviceLink layer -->
+  <project name="phongt/meta-sdl" path="meta-sdl" remote="github" revision="60c9fe8a4a9c6ca95f222685f8d6248f16236f2a" upstream="release/4.4.0"/>
+</manifest>
