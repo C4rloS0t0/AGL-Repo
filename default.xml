@@ -98,8 +98,6 @@
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="174c9bacc4af9873bfbecf618e331c6d464540bf" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
-<!-- FIXME zeus - no zeus layer, yet
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="702a0e826e87796aefa97abc1de0217d3775fd13" upstream="thud-agl"/>
--->
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="d25035baa95f71c7f087c215dff846dc1d8c0d91" upstream="zeus-agl"/>
 
 </manifest>
