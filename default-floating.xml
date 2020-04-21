@@ -40,7 +40,7 @@
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="dunfell"/>
@@ -76,13 +76,14 @@
 
   <!-- MinnowBoard MAX / Upsquared specific things -->
 <!-- FIXME: To be merged with qemux86-64 target! -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="master"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="dunfell"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="master"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="master"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="master"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->

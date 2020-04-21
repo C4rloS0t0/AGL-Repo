@@ -31,18 +31,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="5d47cdf448b6cff5bb7cc5b0ba0426b8235ec478" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="a44b8d2856a937ca3991cbf566788b0cd541d777" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="daa50331352c1f75da3a8ef6458ae3ddf94ef863" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="b1aa5f785094d25765657f1df7db0748680ae7fb" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="420479e0fc43bbc9545aeadfe6c612bf84d48f23" upstream="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="b24e0b8cdac6c86d1d2e96a3c5dd9901cf2412cc" upstream="dunfell"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5e18973196e3ba71ed55cff96b323e2ea10c1523" upstream="dunfell"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ac7514e2bc295c97faa86d24e8823829257adbb8" upstream="dunfell"/>
 
   <!-- Updater layers. --> 
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="62fbb2b1ba053635f154e5a041eb4c797f501514" upstream="dunfell"/>
@@ -74,24 +74,25 @@
 
   <!-- MinnowBoard MAX / Upsquared specific things -->
 <!-- FIXME: To be merged with qemux86-64 target! -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="bd539ea962ee285eb71053583e3c17fa166fc610" upstream="master"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="4162501e85481827f2ef65afe86a29cdd89cb57e" upstream="dunfell"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="bd173142cc22d356d76bb74fbee15065faf299b8" upstream="master"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="bd63e443199e1eaa31962761d447e3fd0fac528d" upstream="master"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="07352f36706ad5546dbf3ea8dccf8d8de217b916" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="e55a348857748557e4cf1ca7df340b38e2fec355" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="bbc14eb4806e0c47e023642a5aba1b2d21c84972" upstream="master"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="74b76e328197280d182455aa2b89ca13274dd864" upstream="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="08b60347caf748453c23a73ac7a991d4f04a737a" upstream="master"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="12641489df3728da24ffce7b306081b8488c5246" upstream="dunfell"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="eaae982a1b7be3ebcc922fad5677702f5dfe9ce0" upstream="dunfell"/>
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="23a4efb05b1c17720ebfbac6807337d08c7bf51e" upstream="master"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="2c721dd084d0c3955396f5e8fff294389b6e6db1" upstream="master"/>
+  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="0c518d23992fb879bfb71278cf1bfa63aae66066" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
 <!-- FIXME: no dunfell support
