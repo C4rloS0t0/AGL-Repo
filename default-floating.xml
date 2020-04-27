@@ -32,29 +32,29 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="zeus" />
-  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="zeus" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="zeus" />
+  <project name="poky" path="external/poky" remote="yocto" revision="dunfell" />
+  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="zeus"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="dunfell"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="zeus"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="dunfell"/>
 
   <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="zeus"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="zeus"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="zeus"/>
+  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="dunfell"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="dunfell"/>
+  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="dunfell"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="zeus"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="dunfell"/>
 
   <!-- SmartDeviceLink layer -->
-<!-- no zeus branch. FIXME
+<!-- FIXME no zeus or newer support
   <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="thud"/>
 -->
 
@@ -65,46 +65,46 @@
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="2.0"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="zeus"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="master"/>
 
 
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="external/meta-renesas-rcar-gen3" />
-  <project name="CogentEmbedded/meta-rcar" path="external/meta-rcar" remote="github" revision="zeus-Yocto-v3.21.0"/>
+  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="zeus-Yocto-v3.21.0"/>
 
   <!-- MinnowBoard MAX / Upsquared specific things -->
 <!-- FIXME: To be merged with qemux86-64 target! -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="zeus"/>
+  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="dunfell"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="zeus"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="zeus"/>
-
-  <!-- Boundary devices BSP layer -->
-<!-- FIXME zeus 
-  <project name="boundarydevices/meta-boundary" path="bsp/meta-boundary" remote="github" revision="master"/>
--->
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="zeus"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="master"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="zeus"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="dunfell"/>
 
   <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="zeus"/>
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="master"/>
 
   <!-- Altera SOCFPGA platform -->
   <!-- https://github.com/kraj/meta-altera -->
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="master"/>
 
   <!-- Sancloud BSP layers -->
+<!-- FIXME: no dunfell support
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="zeus"/>
+-->
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="d25035baa95f71c7f087c215dff846dc1d8c0d91" upstream="zeus-agl"/>
+<!-- FIXME: no dunfell support
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="zeus-agl"/>
+-->
 
 </manifest>
