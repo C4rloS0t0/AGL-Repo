@@ -63,6 +63,9 @@
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
 
+  <!-- IoT SDK layer -->
+  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="9e62214c8ff2180e076d953753b979d5d41e4cd6" upstream="dunfell"/>
+
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="b9e7c299d426e7e22e3ee45bebb5206ad8bc54fd" upstream="master"/>
 
