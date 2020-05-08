@@ -84,8 +84,8 @@
   <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="4162501e85481827f2ef65afe86a29cdd89cb57e" upstream="dunfell"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="07352f36706ad5546dbf3ea8dccf8d8de217b916" upstream="dunfell"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="e55a348857748557e4cf1ca7df340b38e2fec355" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="08491c86615cdd48736b3b783ed3770a50fd06fd" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="1a2652a85e5c2875b48570fee4490ef7d343eea3" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="8cf7f8eb310d69d1319dc305730428d280e7639f" upstream="master"/>
