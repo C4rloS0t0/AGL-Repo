@@ -9,6 +9,7 @@
   />
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
+  <remote name="openembedded" fetch="https://git.openembedded.org/" />
 
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="master"/>
@@ -70,6 +71,8 @@
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="master"/>
 
+  <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixed the dependencies" -->
+  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="dunfell" />
 
   <!-- BSPs -->
 
