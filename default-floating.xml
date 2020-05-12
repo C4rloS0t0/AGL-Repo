@@ -87,7 +87,7 @@
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="master"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="dunfell"/>
