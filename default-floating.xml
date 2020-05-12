@@ -100,9 +100,7 @@
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="master"/>
 
   <!-- Sancloud BSP layers -->
-<!-- FIXME: no dunfell support
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="zeus"/>
--->
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
