@@ -18,7 +18,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/pmarzin/e3-emulation" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/pmarzin/e3-emulation_9.0.1" />
   <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
@@ -102,5 +102,5 @@
   <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="c4fb64eba16782524448c8287656b907633fd0ed" upstream="halibut-agl"/>
 
   <!-- Add iotbzh layer -->
-  <project name="iotbzh/meta-iot-bzh" path="meta-iot-bzh" remote="github" revision="sandbox/pmarzin/e3-emulation"/>
+  <project name="iotbzh/meta-iot-bzh" path="meta-iot-bzh" remote="github" revision="sandbox/pmarzin/e3-emulation_9.0.1"/>
 </manifest>
