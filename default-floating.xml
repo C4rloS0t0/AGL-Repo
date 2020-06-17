@@ -77,8 +77,8 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="zeus-Yocto-v3.21.0"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="refs/tags/dunfell-Yocto-v3.21.0"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="dunfell-Yocto-v3.21.0"/>
 
   <!-- MinnowBoard MAX / Upsquared specific things -->
 <!-- FIXME: To be merged with qemux86-64 target! -->
