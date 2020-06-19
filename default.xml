@@ -79,10 +79,6 @@
   <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="05b94a3b4e1cafc508a529f949ee2631a5a32e24" upstream="zeus-Yocto-v3.21.0"/>
 
-  <!-- MinnowBoard MAX / Upsquared specific things -->
-<!-- FIXME: To be merged with qemux86-64 target! -->
-  <project name="meta-intel" path="bsp/meta-intel" remote="yocto" revision="4162501e85481827f2ef65afe86a29cdd89cb57e" upstream="dunfell"/>
-
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="08491c86615cdd48736b3b783ed3770a50fd06fd" upstream="dunfell"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="1a2652a85e5c2875b48570fee4490ef7d343eea3" upstream="dunfell"/>
