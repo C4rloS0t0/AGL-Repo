@@ -32,18 +32,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="a44b8d2856a937ca3991cbf566788b0cd541d777" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="febbe2944c0c4a04b85fa98fdc261186115954d8" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="b1aa5f785094d25765657f1df7db0748680ae7fb" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="b24e0b8cdac6c86d1d2e96a3c5dd9901cf2412cc" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="5c2de3daedd3f65171b9debf938683ce6e7746ea" upstream="dunfell"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="ac7514e2bc295c97faa86d24e8823829257adbb8" upstream="dunfell"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="fdd19517e17240b0b61765bd02fc483a1bde986f" upstream="dunfell"/>
 
   <!-- Updater layers. --> 
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="62fbb2b1ba053635f154e5a041eb4c797f501514" upstream="dunfell"/>
@@ -51,7 +51,7 @@
   <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="b04850647174db5919e4b92c12219b83b77f5359" upstream="dunfell"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="f1ca0f9117ca2feab6b2bcdebe01cc5ebe745b7f" upstream="dunfell"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="217fadb03da925757b236cb91ba9807e3b2bbd6e" upstream="dunfell"/>
 
   <!-- SmartDeviceLink layer -->
 <!-- FIXME: no zeus or newer support
