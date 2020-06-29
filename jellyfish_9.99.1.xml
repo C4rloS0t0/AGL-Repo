@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- remote servers to query -->
+  <remote name="agl"
+         fetch="https://gerrit.automotivelinux.org/gerrit/"
+         review="https://gerrit.automotivelinux.org/gerrit/"
+         pushurl="ssh://gerrit.automotivelinux.org:29418"
+  />
+  <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
+  <remote name="github" fetch="https://github.com/" />
+  <remote name="openembedded" fetch="https://git.openembedded.org/" />
+
+  <!-- defaults -->
+  <default remote="agl" sync-j="4" revision="refs/tags/jellyfish/9.99.1"/>
+
+
+  <!-- CORE -->
+  <!-- use agl revisions/branches here -->
+
+  <!-- AGL things. -->
+  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
+  <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+  <project name="AGL/meta-agl-extra" path="meta-agl-extra" />
+  <project name="AGL/meta-agl-telematics-demo" path="meta-agl-telematics-demo" />
+
+
+  <!-- ALL EXTERNAL REPOS BELOW USE A FIXED REVISION ! -->
+
+  <!-- YOCTO & OE -->
+
+  <!-- Yocto/OpenEmbedded things. -->
+  <project name="poky" path="external/poky" remote="yocto" revision="febbe2944c0c4a04b85fa98fdc261186115954d8" upstream="dunfell" />
+  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8a72d29e0876830ffd96b85d7d0308302eb07a5d" upstream="dunfell" />
+
+
+  <!-- UPSTREAM COMPONENTS -->
+
+  <!-- meta-virtualization -->
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="5c2de3daedd3f65171b9debf938683ce6e7746ea" upstream="dunfell"/>
+
+  <!-- Qt things -->
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="fdd19517e17240b0b61765bd02fc483a1bde986f" upstream="dunfell"/>
+
+  <!-- Updater layers. --> 
+  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="62fbb2b1ba053635f154e5a041eb4c797f501514" upstream="dunfell"/>
+  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="f8a25326da2bc4b0b29b40946cd8e3b68730953e" upstream="dunfell"/>
+  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="b04850647174db5919e4b92c12219b83b77f5359" upstream="dunfell"/>
+
+  <!-- Security layer -->
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="217fadb03da925757b236cb91ba9807e3b2bbd6e" upstream="dunfell"/>
+
+  <!-- SmartDeviceLink layer -->
+<!-- FIXME: no zeus or newer support
+  <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="ab1e345171e799216b8fcb432943a2de5ff66f5f" upstream="thud"/>
+-->
+
+  <!-- meta-spdxscanner - support for fossology -->
+  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="dd50d88f1c7b7226c2dd608d014556a395861ab5" upstream="master"/>
+
+  <!-- Alexa Auto SDK layer -->
+  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="86916d2d8c1702a8be3c88a9012ca56583bcc0c8" upstream="2.0"/>
+
+  <!-- IoT SDK layer -->
+  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="9e62214c8ff2180e076d953753b979d5d41e4cd6" upstream="dunfell"/>
+
+  <!-- clang support -->
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="b9e7c299d426e7e22e3ee45bebb5206ad8bc54fd" upstream="master"/>
+
+  <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
+  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell" />
+
+  <!-- BSPs -->
+
+  <!-- Renesas Gen3 specific things -->
+  <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="0206520ea768e1317a5aee94b1e46f06a7694267" upstream="dunfell-Yocto-v3.21.0"/>
+
+  <!-- consolidate on meta-freescale from git.yoctoproject.org -->
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="08491c86615cdd48736b3b783ed3770a50fd06fd" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="1a2652a85e5c2875b48570fee4490ef7d343eea3" upstream="dunfell"/>
+
+  <!-- TI Vayu / Jacinto 6 / DRA7 -->
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="fa9abd9a6efe5854403c874fe7d83a35490461e5" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="a83fb916dcfcad3028256ba8ff7d0626cf475cc5" upstream="dunfell"/>
+
+  <!-- Raspberry Pi 3, 3B+, and 4 -->
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="eaae982a1b7be3ebcc922fad5677702f5dfe9ce0" upstream="dunfell"/>
+
+  <!-- DragonBoard 410c specific things -->
+  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="f36ade4e5a945e511d848c974cc658a16ad85f72" upstream="dunfell"/>
+
+  <!-- Altera SOCFPGA platform -->
+  <!-- https://github.com/kraj/meta-altera -->
+  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="0c518d23992fb879bfb71278cf1bfa63aae66066" upstream="master"/>
+
+  <!-- Sancloud BSP layers -->
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="c556534394d4d3ed8c58d2b8b9a561ec1b0f1076" upstream="dunfell"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="09aa0aa4c25b97dfff0386ab3aba3835ae89bae7" upstream="master"/>
+
+  <!-- meta-synopsys - support for ARC HSDK board -->
+<!-- FIXME: no dunfell support
+  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="d25035baa95f71c7f087c215dff846dc1d8c0d91" upstream="zeus-agl"/>
+-->
+
+</manifest>
