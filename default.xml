@@ -10,6 +10,7 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
+  <remote name="phytec" fetch="https://git.phytec.de/" />
 
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="master"/>
@@ -19,7 +20,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" upstream="sandbox/walzert/can_build" />
   <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
@@ -74,6 +75,10 @@
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell" />
 
   <!-- BSPs -->
+
+  <!-- Phytec specific things -->
+  <project name="meta-phytec" path="bsp/meta-phytec" remote="phytec" revision="	674e8cf75f0a5c11d0e26b65b0658a82cb1fd905" upstream="thud"/>
+
 
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3"/>
