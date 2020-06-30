@@ -54,11 +54,6 @@
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="dunfell"/>
 
-  <!-- SmartDeviceLink layer -->
-<!-- FIXME no zeus or newer support
-  <project name="phongt/meta-sdl" path="external/meta-sdl" remote="github" revision="thud"/>
--->
-
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
 
@@ -101,10 +96,5 @@
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
-
-  <!-- meta-synopsys - support for ARC HSDK board -->
-<!-- FIXME: no dunfell support
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="zeus-agl"/>
--->
 
 </manifest>
