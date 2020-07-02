@@ -19,7 +19,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" upstream="sandbox/walzert/can_build" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/walzert/can_build"  upstream="sandbox/walzert/can_build" />
   <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
