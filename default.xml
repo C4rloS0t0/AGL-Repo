@@ -79,8 +79,8 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="13c782bfe40c921034944d6680bd27517a580598" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="fa9abd9a6efe5854403c874fe7d83a35490461e5" upstream="dunfell"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="a83fb916dcfcad3028256ba8ff7d0626cf475cc5" upstream="dunfell"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="0bd9c740267c0926e89bcfdb489790b7bf1fbd4b" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="f2b2b2095f1a9d3ef705f7518d9db1e3141da2fb" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="f20ccfa11db4c0d1608cf6f3e654d29c5bfc3dd3" upstream="dunfell"/>
@@ -93,7 +93,7 @@
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="363a3f924277d47ebed3cf93a4fbbd59bc25018d" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="c556534394d4d3ed8c58d2b8b9a561ec1b0f1076" upstream="dunfell"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="09aa0aa4c25b97dfff0386ab3aba3835ae89bae7" upstream="master"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="58ad2300f74acc92afa21eaeaef7fd47fcc2a61c" upstream="dunfell"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="91dd94630dad98389bfe4e15207e771754bde75c" upstream="master"/>
 
 </manifest>
