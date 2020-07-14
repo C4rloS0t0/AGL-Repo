@@ -69,7 +69,7 @@
   <!-- BSPs -->
   
   <!-- Phytec specific things -->
-  <project name="meta-phytec" path="bsp/meta-phytec" remote="phytec" revision="674e8cf75f0a5c11d0e26b65b0658a82cb1fd905" upstream="thud"/>
+  <project name="meta-phytec" path="bsp/meta-phytec" remote="phytec" upstream="thud"/>
 
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
