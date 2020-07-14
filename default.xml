@@ -9,7 +9,7 @@
   />
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
-
+  <remote name="phytec" fetch="https://git.phytec.de/git/" />
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="icefish"/>
 
@@ -18,7 +18,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/walzert/can_build_icefish"  upstream="sandbox/walzert/can_build_icefish" />
   <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
@@ -67,6 +67,8 @@
 
   <!-- BSPs -->
 
+   <!-- Phytec specific things -->
+ <project name="meta-phytec" path="bsp/meta-phytec" remote="phytec"  revision="b1e868f902678c53dd12a02f05c05feba305fb7c" upstream="thud"/>
   <!-- Renesas Gen3 specific things -->
   <project name="AGL/meta-renesas-rcar-gen3" path="bsp/meta-renesas-rcar-gen3" />
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="e9bf7907fcf1f3013705de10a37b7561f6660e3c" upstream="thud-v3.21.0"/>
