@@ -54,6 +54,9 @@
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="dunfell"/>
 
+  <!-- meta-codescanner - support for using CodeScanner during the build -->
+  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
+
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
 

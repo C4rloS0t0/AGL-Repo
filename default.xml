@@ -53,6 +53,9 @@
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="982a29bbb7ef32475aea7c4bb56c620065a50927" upstream="dunfell"/>
 
+  <!-- meta-codescanner - support for using CodeScanner during the build -->
+  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
+
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="23bba6f8dfafc806c187fc58b31fe2466d95772d" upstream="master"/>
 
