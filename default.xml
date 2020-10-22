@@ -19,7 +19,7 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/scottm/refhw" />
   <project name="AGL/meta-agl-cluster-demo" path="meta-agl-cluster-demo" />
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
   <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
@@ -76,6 +76,7 @@
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="6c12c043f93966ec704d3a19765fbe200d42715d" upstream="dunfell-dev-4.14"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="0dad8fb30506f085df3057c11dbc465c489d7e45" upstream="dunfell-Yocto-v3.21.0-v2"/>
+  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="6bc3d8825c20d21528e24a7237ff7392e01a81bd" upstream="dunfell"/>
