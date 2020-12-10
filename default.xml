@@ -98,7 +98,7 @@
 
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="58ad2300f74acc92afa21eaeaef7fd47fcc2a61c" upstream="dunfell"/>
-  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="91dd94630dad98389bfe4e15207e771754bde75c" upstream="master"/>
+  <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="7b556aa2265cfc41e6e5fda7085619436fe9a385" upstream="dunfell"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
   <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="80656bf6551b2056c8cb02a74510e595e2553048" upstream="dunfell-agl"/>
