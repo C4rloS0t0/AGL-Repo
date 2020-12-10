@@ -97,7 +97,7 @@
   <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="1db773d79403c4439103f3fba51b6c42d5f7b266" upstream="master"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="58ad2300f74acc92afa21eaeaef7fd47fcc2a61c" upstream="dunfell"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="3abbcd8318674c6d82bd93132e9134e946620624" upstream="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="7b556aa2265cfc41e6e5fda7085619436fe9a385" upstream="dunfell"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
