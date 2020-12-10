@@ -83,8 +83,8 @@
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="05b1746a4adc240b690fe965ac5b8a043d9b9d03" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="0bd9c740267c0926e89bcfdb489790b7bf1fbd4b" upstream="dunfell"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="f2b2b2095f1a9d3ef705f7518d9db1e3141da2fb" upstream="dunfell"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="07209f738f14c98e84874573c98a948ba894ecf3" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="89ca43fe6411a40d1ba8f5379e49affd78cdd644" upstream="dunfell"/>
