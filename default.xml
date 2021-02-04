@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="424296bf9bb4bae27febf91bce0118df09ce5fa1" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="e32d854e33bc86c2a616df8708e021a098afcf73" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="f2d02cb71eaff8eb285a1997b30be52486c160ae" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5bba79488b7d393d2258d6e917f7bf7b0d7c4073" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="ff997b6b3ba800978546098ab3cdaa113b6695e1" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="92cd3467502bd27b98a76862ca6525ce425a8479" upstream="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="0d8eb956015acdea7e77cd6672d08dce18061510" upstream="dunfell"/>
@@ -60,13 +60,13 @@
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="d46f22b453f528868b483e39bc7a057ca68a5199" upstream="2.3"/>
 
   <!-- IoT SDK layer -->
-  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="9e62214c8ff2180e076d953753b979d5d41e4cd6" upstream="dunfell"/>
+  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="4378d7cb5e650402d511ee082e61fca6b2968053" upstream="dunfell"/>
 
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="e63d6f9abba5348e2183089d6ef5ea384d7ae8d8" upstream="dunfell"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
-  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="e2ef0dd8fa13d6b96e44773b09d07e4817d0a44d" upstream="dunfell" />
+  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="07dca1e54f82a06939df9b890c6d1ce1e3197f75" upstream="dunfell" />
 
   <!-- BSPs -->
 
