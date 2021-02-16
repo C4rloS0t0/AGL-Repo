@@ -71,8 +71,8 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="ebacfd2c83c37700c30850a4b82742954e630641" upstream="dunfell-dev"/>
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="f3ecbd1a33e992475d78a58e8ae785a27cfe7c9e" upstream="dunfell-Yocto-v4.1.0"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="c0a59569d52e32c26de083597308e7bc189675dd" upstream="dunfell-dev"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="a99eb54e9b068375b306fec53f1530f7eb780014" upstream="v4.7.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
