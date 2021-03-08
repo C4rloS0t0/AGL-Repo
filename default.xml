@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="e32d854e33bc86c2a616df8708e021a098afcf73" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="b573215eafbd79f3d7ac12ff662753b6835baac3" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5bba79488b7d393d2258d6e917f7bf7b0d7c4073" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="346681e7bf9c78008a845fc89031be4fd4ceb3a1" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="92cd3467502bd27b98a76862ca6525ce425a8479" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="502b81ae3ae11bf4d889b7eff6239fb9e6c55994" upstream="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="0d8eb956015acdea7e77cd6672d08dce18061510" upstream="dunfell"/>
@@ -84,7 +84,7 @@
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="07209f738f14c98e84874573c98a948ba894ecf3" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
-  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="987993209716302eb8f314f69a2a3340555f94d8" upstream="dunfell"/>
+  <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="77190af02d48adc2b28216775e6318e9eeda571c" upstream="dunfell"/>
 
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="2778e164cd0427277e37fc03c8ed19179da1613b" upstream="dunfell"/>
