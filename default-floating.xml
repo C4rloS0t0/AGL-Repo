@@ -55,7 +55,7 @@
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
+  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="dunfell"/>
 
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="2.3"/>
