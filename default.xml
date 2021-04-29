@@ -29,18 +29,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="b573215eafbd79f3d7ac12ff662753b6835baac3" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="8f7d34d135e167f8949a9c44c00fd066408cb120" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="346681e7bf9c78008a845fc89031be4fd4ceb3a1" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="430ef96fe65f62d8da995f446d5b9b093544f031" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="502b81ae3ae11bf4d889b7eff6239fb9e6c55994" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="89abc62b47f6f20db9d00a8ec9b2c1b6b60ac3f9" upstream="dunfell"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="0d8eb956015acdea7e77cd6672d08dce18061510" upstream="dunfell"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
 
   <!-- Updater layers. --> 
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="cc1b38310f4ebd0558438057a1edfeb4a3555b16" upstream="dunfell"/>
@@ -48,25 +48,25 @@
   <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="3e4795b85861e63c54f6f7c573f8bd13b3024072" upstream="dunfell"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="c74cc97641fd93e0e7a4383255e9a0ab3deaf9d7" upstream="dunfell"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="831f2d6451918f1cf77795c2cf5229d1e49f283f" upstream="dunfell"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
-  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="23bba6f8dfafc806c187fc58b31fe2466d95772d" upstream="master"/>
+  <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="23bba6f8dfafc806c187fc58b31fe2466d95772d" upstream="dunfell"/>
 
   <!-- Alexa Auto SDK layer -->
   <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="d46f22b453f528868b483e39bc7a057ca68a5199" upstream="2.3"/>
 
   <!-- IoT SDK layer -->
-  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="4378d7cb5e650402d511ee082e61fca6b2968053" upstream="dunfell"/>
+  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="5431f91969087d631972d73cd03b16eed0a61987" upstream="dunfell"/>
 
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="e63d6f9abba5348e2183089d6ef5ea384d7ae8d8" upstream="dunfell"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
-  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="07dca1e54f82a06939df9b890c6d1ce1e3197f75" upstream="dunfell" />
+  <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="6b3000729ce3424c2aa8a03cd46ef37b200d2fc1" upstream="dunfell" />
 
   <!-- BSPs -->
 
@@ -76,8 +76,8 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="46f54fdc5ad854a22bf759aac7fd65db1d1bb574" upstream="dunfell"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="05b1746a4adc240b690fe965ac5b8a043d9b9d03" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f2421b9fa04e9cad0109bfbd095ea0684c5e2281" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="a7b96dc91bb2818d8ed8210654db10d08d4d7890" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
