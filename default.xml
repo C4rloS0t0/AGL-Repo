@@ -81,7 +81,7 @@
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="07209f738f14c98e84874573c98a948ba894ecf3" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="02a53f48b9bdb242185204610610f2209bc92ca6" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="77190af02d48adc2b28216775e6318e9eeda571c" upstream="dunfell"/>
