@@ -90,10 +90,6 @@
   <!-- DragonBoard 410c specific things -->
   <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="dunfell"/>
 
-  <!-- Altera SOCFPGA platform -->
-  <!-- https://github.com/kraj/meta-altera -->
-  <project name="kraj/meta-altera" path="bsp/meta-altera" remote="github" revision="master"/>
-
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="dunfell"/>
