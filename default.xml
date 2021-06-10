@@ -29,9 +29,9 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="8f7d34d135e167f8949a9c44c00fd066408cb120" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="6ebb33bdaccaeadff0c85aab27acf35723df00d8" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="430ef96fe65f62d8da995f446d5b9b093544f031" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="11eae114522a6befa06c7f4021a83bc016133543" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
@@ -48,7 +48,7 @@
   <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="3e4795b85861e63c54f6f7c573f8bd13b3024072" upstream="dunfell"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="831f2d6451918f1cf77795c2cf5229d1e49f283f" upstream="dunfell"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="93232ae6d52b0d1968aa0ce69fa745e85e3bbc6b" upstream="dunfell"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
