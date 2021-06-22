@@ -19,9 +19,9 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/ronan/rcar-bsp-5.1.0"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
-  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="sandbox/harunobu.kurokawa/rcar-bsp-5.1.0-drm-lease"/>
 
 
   <!-- ALL EXTERNAL REPOS BELOW USE A FIXED REVISION ! -->
@@ -71,8 +71,8 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="c0a59569d52e32c26de083597308e7bc189675dd" upstream="dunfell-dev"/>
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="a99eb54e9b068375b306fec53f1530f7eb780014" upstream="v4.7.0"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="a5c25c2ae6710fab5796a5fdc56117c819a4d7e5" upstream="dunfell-dev"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="77fb5acc67c441d66a8ca3ab350e4d11622d86c1" upstream="v5.1.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
