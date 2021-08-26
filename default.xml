@@ -57,7 +57,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="23bba6f8dfafc806c187fc58b31fe2466d95772d" upstream="dunfell"/>
 
   <!-- Alexa Auto SDK layer -->
-  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="d46f22b453f528868b483e39bc7a057ca68a5199" upstream="2.3"/>
+  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="e1564482a33648bede36740796c8d69ae3c6f7fb" upstream="2.3"/>
 
   <!-- IoT SDK layer -->
   <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="5431f91969087d631972d73cd03b16eed0a61987" upstream="dunfell"/>
