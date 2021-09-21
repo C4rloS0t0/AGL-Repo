@@ -20,9 +20,9 @@
   <!-- use agl revisions/branches here -->
 
   <!-- AGL things. -->
-  <project name="AGL/meta-agl" path="meta-agl" />
+  <project name="AGL/meta-agl" path="meta-agl" revision="sandbox/ronan/rcar-bsp-5.5.0"/>
   <project name="AGL/meta-agl-demo" path="meta-agl-demo" />
-  <project name="AGL/meta-agl-devel" path="meta-agl-devel" />
+  <project name="AGL/meta-agl-devel" path="meta-agl-devel" revision="sandbox/ronan/rcar-bsp-5.5.0"/>
 
 
   <!-- FLOATING has no fixed revision for external repos ! -->
@@ -75,7 +75,7 @@
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="dunfell-dev"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="dunfell"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="v4.7.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
