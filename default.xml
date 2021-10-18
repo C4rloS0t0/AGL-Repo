@@ -12,7 +12,7 @@
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="master"/>
+  <default remote="agl" sync-j="4" revision="refs/heads/sandbox/jsmoeller/rmappfw"/>
 
 
   <!-- CORE -->
@@ -76,7 +76,7 @@
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="c0a59569d52e32c26de083597308e7bc189675dd" upstream="dunfell-dev"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="a99eb54e9b068375b306fec53f1530f7eb780014" upstream="v4.7.0"/>
-  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
+  <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" revision="master"/>
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f2421b9fa04e9cad0109bfbd095ea0684c5e2281" upstream="dunfell"/>
