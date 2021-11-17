@@ -43,11 +43,6 @@
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="dunfell"/>
 
-  <!-- Updater layers. -->
-  <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="dunfell"/>
-  <project name="advancedtelematic/meta-updater-qemux86-64" path="external/meta-updater-qemux86-64" remote="github" revision="dunfell"/>
-  <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="dunfell"/>
-
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="dunfell"/>
 
@@ -56,12 +51,6 @@
 
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="dunfell"/>
-
-  <!-- Alexa Auto SDK layer -->
-  <project name="alexa/alexa-auto-sdk" path="external/alexa-auto-sdk" remote="github" revision="2.3"/>
-
-  <!-- IoT SDK layer -->
-  <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="dunfell"/>
 
   <!-- clang support -->
   <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="dunfell"/>
