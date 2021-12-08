@@ -61,7 +61,7 @@
   <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="7ded597103e8e54ffa979d042cdbbedb76ff7cb5" upstream="dunfell"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="982f2d552bb21c73ec1aa5fe7750287bae34e6ad" upstream="dunfell"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="4d484dea63c527da1c435efb45ed20d1ab0dadc3" upstream="dunfell"/>
 
   <!-- BSPs -->
 
