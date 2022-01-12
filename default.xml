@@ -29,9 +29,9 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="0839888394a6e42e96f9f0d201376eb38bc79b24" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="795339092f87672e4f68e4d3bc4cfd0e252d1831" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="7889158dcd187546fc5e99fd81d0779cad3e8d17" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="ab9fca485e13f6f2f9761e1d2810f87c2e4f060a" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
@@ -71,8 +71,8 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f2421b9fa04e9cad0109bfbd095ea0684c5e2281" upstream="dunfell"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="a7b96dc91bb2818d8ed8210654db10d08d4d7890" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="6d2922bee372157454e422df518b6cf0bfcf6700" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c52f64973cd4043a5e8be1c7e29bb9690eb4c3e5" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
