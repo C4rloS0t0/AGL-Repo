@@ -76,7 +76,7 @@
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="15f3d4a3c3773294f1cdb66a88744930941a892e" upstream="dunfell"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="15613c951051c450fc8726b2576c23c105b79d53" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="934064a01903b2ba9a82be93b3f0efdb4543a0e8" upstream="dunfell"/>
@@ -85,7 +85,7 @@
   <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="2778e164cd0427277e37fc03c8ed19179da1613b" upstream="dunfell"/>
 
   <!-- Sancloud BSP layers -->
-  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="770da847ec938d8a5388ae16f25bdd235d72a7b9" upstream="dunfell"/>
+  <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="ef68da514bd7cd4cfed75e69af1eb5c7ac11dbb9" upstream="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="98b2b2c34f186050e6092bc4f17ecb69aef6148a" upstream="master"/>
 
   <!-- meta-synopsys - support for ARC HSDK board -->
