@@ -29,7 +29,7 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="795339092f87672e4f68e4d3bc4cfd0e252d1831" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="bba323389749ec3e306509f8fb12649f031be152" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="ab9fca485e13f6f2f9761e1d2810f87c2e4f060a" upstream="dunfell" />
 
@@ -37,7 +37,7 @@
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="180241e0eee718fc52c7b6b25dbd1d845a8047c4" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="c5f61e547b90aa8058cf816f00902afed9c96f72" upstream="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
@@ -63,7 +63,7 @@
   <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="5431f91969087d631972d73cd03b16eed0a61987" upstream="dunfell"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="52c7b51ab9ebe426a77559802333d8479864912e" upstream="dunfell"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="5ac36e49ab0f4b9bc72a3c747841c1f9e54e640a" upstream="dunfell"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="b901080cf57d9a7f5476ab4d96e56c30db8170a8" upstream="dunfell" />
@@ -76,7 +76,7 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="6d2922bee372157454e422df518b6cf0bfcf6700" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="a6199966375875fdfc295e6687c86a83fb53bf04" upstream="dunfell"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c52f64973cd4043a5e8be1c7e29bb9690eb4c3e5" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
