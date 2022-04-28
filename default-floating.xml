@@ -12,7 +12,7 @@
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
 
   <!-- defaults -->
-  <default remote="agl" sync-j="4" revision="next"/>
+  <default remote="agl" sync-j="4" revision="master"/>
 
 
   <!-- CORE -->
