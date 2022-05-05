@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="d53ac6e9561d782818d5491b7c4066f4a712d358" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="d84c73d1ef05b7e12bcab2767f1a1f7a59ad17f2" upstream="kirkstone" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="d2f8b5cdb285b72a4ed93450f6703ca27aa42e8a" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="bb2b5b31a80eb164e47649036878773614e4dbdf" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="21a5c29a10f033859f6e44aa035161befa439128" upstream="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5b71df60e523423b9df6793de9387f87a149ac42" upstream="kirkstone"/>
@@ -52,7 +52,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="25373bc58ece8b6f07680a103b4a1bbbc99e0db1" upstream="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="d748f542e27d58fcbcee9d1482d71cd9c38bf06b" upstream="master"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="85d956d95401479ca666139e31f662f60c156d5f" upstream="kirkstone"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
@@ -71,12 +71,12 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="96a0904cd0562378411c373f8a976c749772202b" upstream="master"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="master"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="2fb1ce365338126aad365012ebb913b3e4a9f1be" upstream="kirkstone"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="de0eb1408150d77f9cce97c559f9a5a3c71e5d6c" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="50b34c5cc9496441152ad28bf1022e5fc5ab0a7e" upstream="kirkstone"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="60c27f59a79ef946ecfa472117a80b6aa357cddd" upstream="master"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="88e8c1cbf370940fae6dac4a8b732366f75173dc" upstream="master"/>
 
   <!-- Raspberry Pi 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="0135a02ea577bd39dd552236ead2c5894d89da1d" upstream="kirkstone"/>

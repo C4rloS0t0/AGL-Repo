@@ -38,7 +38,7 @@
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="master"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="kirkstone"/>
@@ -53,7 +53,7 @@
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="master"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="master"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="kirkstone"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="kirkstone" />
@@ -62,18 +62,18 @@
   <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="dunfell"/>
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="dunfell"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="kirkstone"/>
 
   <!-- BSPs -->
 
   <!-- Renesas Gen3 specific things -->
-  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="dunfell-dev"/>
+  <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="kirkstone-dev_3.5_M3_v5.9.0"/>
   <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="dunfell-Yocto-v4.1.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="master"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="master"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="kirkstone"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="kirkstone"/>
