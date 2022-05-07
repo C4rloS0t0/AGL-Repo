@@ -29,18 +29,18 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="3ec873af83c7b09468605d8aadd0933aecbdb56d" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="f14992950eb90dc168eb82823ab69538f668f8bc" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="0722ff6f021df91542b5efa1ff5b5f6269f66add" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="8ff12bfffcf0840d5518788a53d88d708ad3aae0" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="c5f61e547b90aa8058cf816f00902afed9c96f72" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="f6b88c1d2f515ffac90457c0d649d6c805fff736" upstream="dunfell"/>
 
   <!-- Qt things -->
-  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="b4d24d70aca75791902df5cd59a4f4a54aa4a125" upstream="dunfell"/>
+  <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
 
   <!-- Updater layers. --> 
   <project name="advancedtelematic/meta-updater" path="external/meta-updater" remote="github" revision="cc1b38310f4ebd0558438057a1edfeb4a3555b16" upstream="dunfell"/>
@@ -48,7 +48,7 @@
   <project name="advancedtelematic/meta-updater-raspberrypi" path="external/meta-updater-raspberrypi" remote="github" revision="3e4795b85861e63c54f6f7c573f8bd13b3024072" upstream="dunfell"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="b76698c788cb8ca632077a972031899ef15025d6" upstream="dunfell"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="c62970fda82acf75035243766ecd195243e0f82a" upstream="dunfell"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
@@ -63,7 +63,7 @@
   <project name="intel-iot-devkit/meta-iot-cloud" path="external/meta-iot-cloud" remote="github" revision="5431f91969087d631972d73cd03b16eed0a61987" upstream="dunfell"/>
 
   <!-- clang support -->
-  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="5ac36e49ab0f4b9bc72a3c747841c1f9e54e640a" upstream="dunfell"/>
+  <project name="kraj/meta-clang" path="external/meta-clang" remote="github" revision="3bb001d3f364bbf6588fed04b9ee2c7e74a0beba" upstream="dunfell"/>
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="b901080cf57d9a7f5476ab4d96e56c30db8170a8" upstream="dunfell" />
@@ -76,11 +76,11 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="a6199966375875fdfc295e6687c86a83fb53bf04" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="3dbca0ef2ae1ea3862e540c59ad77adbcb419d57" upstream="dunfell"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c52f64973cd4043a5e8be1c7e29bb9690eb4c3e5" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="c4f04f3fb66f8f4365b08b553af8206372e90a63" upstream="dunfell"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" upstream="dunfell"/>
   <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="02a53f48b9bdb242185204610610f2209bc92ca6" upstream="dunfell"/>
 
   <!-- Raspberry Pi 3, 3B+, and 4 -->
