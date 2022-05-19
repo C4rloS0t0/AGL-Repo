@@ -10,6 +10,8 @@
   <remote name="yocto" fetch="https://git.yoctoproject.org/git/" />
   <remote name="github" fetch="https://github.com/" />
   <remote name="openembedded" fetch="https://git.openembedded.org/" />
+  <remote name="alb" fetch="https://source.codeaurora.org/external/autobsps32"/>
+  <remote name="linaro" fetch="https://git.linaro.org/openembedded"/>
 
   <!-- defaults -->
   <default remote="agl" sync-j="4" revision="marlin"/>
@@ -73,6 +75,9 @@
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
   <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="3dbca0ef2ae1ea3862e540c59ad77adbcb419d57" upstream="dunfell"/>
   <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="c52f64973cd4043a5e8be1c7e29bb9690eb4c3e5" upstream="dunfell"/>
+
+  <project name="meta-alb" path="bsp/meta-alb" remote="alb" revision="deab83e3ae9651c2fa8704ba9401c1fde5f9fae5" upstream="release/bsp32.0-3.2"/>
+  <project name="meta-linaro" path="bsp/meta-linaro" remote="linaro" revision="10af9133aeb28b3487fd227c900c11b786505699" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" upstream="dunfell"/>
