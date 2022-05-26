@@ -29,21 +29,21 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="d84c73d1ef05b7e12bcab2767f1a1f7a59ad17f2" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="8c489602f218bcf21de0d3c9f8cf620ea5f06430" upstream="kirkstone" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="d2f8b5cdb285b72a4ed93450f6703ca27aa42e8a" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="5357c7a40eaf8d1bcf7ff58edbba8e9527e40c7d" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="0b78362654262145415df8211052442823b9ec9b" upstream="kirkstone" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="973c8d0964c6f40338857efe5b8009b2f647d485" upstream="kirkstone"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="2fae71cdf0e8c6f398f51219bdf31eac76c662ec" upstream="kirkstone"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5b71df60e523423b9df6793de9387f87a149ac42" upstream="kirkstone"/>
 
   <!-- Security layer -->
-  <project name="meta-security" path="external/meta-security" remote="yocto" revision="93f2146211001ee3cf697d8428969cc3069ed6ba" upstream="kirkstone"/>
+  <project name="meta-security" path="external/meta-security" remote="yocto" revision="d3d8e62bf1caa3870a504c0addcfd200b33c189f" upstream="kirkstone"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
