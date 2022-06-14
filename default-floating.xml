@@ -31,7 +31,6 @@
 
   <!-- Yocto/OpenEmbedded things. -->
   <project name="poky" path="external/poky" remote="yocto" revision="kirkstone" />
-  <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="kirkstone" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="kirkstone" />
 
 
@@ -57,9 +56,6 @@
 
   <!-- meta-python2 as stop-gap to allow chromium to build until upstream fixes the dependencies -->
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="kirkstone" />
-
-  <!-- meta-ros layer -->
-  <project name="ros/meta-ros" path="external/meta-ros" remote="github" revision="dunfell"/>
 
   <!-- meta-flutter -->
   <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="kirkstone"/>
