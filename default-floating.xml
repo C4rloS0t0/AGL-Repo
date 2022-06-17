@@ -64,7 +64,7 @@
 
   <!-- Renesas Gen3 specific things -->
   <project name="renesas-rcar/meta-renesas" path="bsp/meta-renesas" remote="github" revision="kirkstone-dev"/>
-  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="kirkstone-dev_3.5_M3_v5.9.0"/>
+  <project name="CogentEmbedded/meta-rcar" path="bsp/meta-rcar" remote="github" revision="kirkstone-Yocto-v5.9.0"/>
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
