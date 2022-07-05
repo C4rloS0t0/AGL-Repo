@@ -78,14 +78,8 @@
   <!-- Raspberry Pi 3, 3B+, and 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="kirkstone"/>
 
-  <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="master"/>
-
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="master"/>
-
-  <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="dunfell-agl"/>
 
 </manifest>

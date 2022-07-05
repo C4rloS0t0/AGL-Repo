@@ -77,14 +77,8 @@
   <!-- Raspberry Pi 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="0135a02ea577bd39dd552236ead2c5894d89da1d" upstream="kirkstone"/>
 
-  <!-- DragonBoard 410c specific things -->
-  <project name="meta-qcom" path="bsp/meta-qcom" remote="yocto" revision="1d08de2053a3b7dee34cbd37ab22ada14d94f243" upstream="master"/>
-
   <!-- Sancloud BSP layers -->
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="a34ca4c3fedfed1915ec3acc40bc8c0edd70e8a4" upstream="dunfell"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="98b2b2c34f186050e6092bc4f17ecb69aef6148a" upstream="master"/>
-
-  <!-- meta-synopsys - support for ARC HSDK board -->
-  <project name="foss-for-synopsys-dwc-arc-processors/meta-synopsys" path="bsp/meta-synopsys" remote="github" revision="84ebfa5da3d72bfbd4d592663d0f033616e57857" upstream="dunfell-agl"/>
 
 </manifest>
