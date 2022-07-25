@@ -45,6 +45,9 @@
   <!-- Security layer -->
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="kirkstone"/>
 
+  <!-- SELinux layer -->
+  <project name="meta-selinux" path="external/meta-selinux" remote="yocto" revision="kirkstone"/>
+
   <!-- meta-codescanner - support for using CodeScanner during the build -->
   <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="master"/>
 
