@@ -60,7 +60,8 @@
   <project name="meta-python2" path="external/meta-python2" remote="openembedded" revision="f02882e2aa9279ca7becca8d0cedbffe88b5a253" upstream="kirkstone" />
 
   <!-- meta-flutter -->
-  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" revision="090231ac1d9c8745cf08997fa7e09bc810b7897c" upstream="kirkstone"/>
+  <project name="meta-flutter/meta-flutter" path="external/meta-flutter" remote="github" 
+revision="0655f2eb220d2a929157643f542f8f980986442c" upstream="kirkstone"/>
 
   <!-- BSPs -->
 
