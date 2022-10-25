@@ -29,15 +29,15 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="4aad5914efe9789755789856882aac53de6c4ed3" upstream="dunfell" />
+  <project name="poky" path="external/poky" remote="yocto" revision="7f9b7f912e13451a4cd03b10a8090a5def68dc39" upstream="dunfell" />
   <project name="meta-gplv2" path="external/meta-gplv2" remote="yocto" revision="60b251c25ba87e946a0ca4cdc8d17b1cb09292ac" upstream="dunfell" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="f22bf6efaae61a8fd9272be64e7d75223c58922e" upstream="dunfell" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="6792ebdd966aa0fb662989529193a0940fbfee00" upstream="dunfell" />
 
 
   <!-- UPSTREAM COMPONENTS -->
 
   <!-- meta-virtualization -->
-  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="a63a54df3170fed387f810f23cdc2f483ad587df" upstream="dunfell"/>
+  <project name="meta-virtualization" path="external/meta-virtualization" remote="yocto" revision="beea119eb529b4a11f266004aee8b548427aea39" upstream="dunfell"/>
 
   <!-- Qt things -->
   <project name="meta-qt5/meta-qt5" path="external/meta-qt5" remote="github" revision="5ef3a0ffd3324937252790266e2b2e64d33ef34f" upstream="dunfell"/>
@@ -51,7 +51,7 @@
   <project name="meta-security" path="external/meta-security" remote="yocto" revision="c62970fda82acf75035243766ecd195243e0f82a" upstream="dunfell"/>
 
   <!-- meta-codescanner - support for using CodeScanner during the build -->
-  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="f27a46feb2291d333744850a82d5c8af303e3bd5" upstream="master"/>
+  <project name="dl9pf/meta-codechecker" path="external/meta-codechecker" remote="github" revision="2231a85713443b29d9c35a3cc1b727da4db3be24" upstream="master"/>
 
   <!-- meta-spdxscanner - support for fossology -->
   <project name="meta-spdxscanner" path="external/meta-spdxscanner" remote="yocto" revision="23bba6f8dfafc806c187fc58b31fe2466d95772d" upstream="dunfell"/>
