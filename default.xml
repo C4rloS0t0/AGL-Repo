@@ -76,8 +76,8 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="c4347b507c2ba0d7eb3917303f83631244bf5048" upstream="dunfell"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="88773cbb6367496b1a2ddca683afcd352be3cd58" upstream="dunfell"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="ae2001935fdd7cf7ee7e3b8a4826d7b59202be6d" upstream="dunfell"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="f37f72a85ba273b27347169b727c889f42b91d6c" upstream="dunfell"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
   <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="5c09684863be8e803e3e987a5ce4940721c3f39a" upstream="dunfell"/>
