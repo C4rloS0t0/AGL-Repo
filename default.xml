@@ -29,8 +29,8 @@
   <!-- YOCTO & OE -->
 
   <!-- Yocto/OpenEmbedded things. -->
-  <project name="poky" path="external/poky" remote="yocto" revision="d64bef1c7d713b92a51228e5ade945835e5a94a4" upstream="kirkstone" />
-  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="bd2d8fba766f912bd1bc5cde7d6f0e72152f1547" upstream="kirkstone" />
+  <project name="poky" path="external/poky" remote="yocto" revision="2e79b199114b25d81bfaa029ccfb17676946d20d" upstream="kirkstone" />
+  <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="50d4a8d2a983a68383ef1ffec2c8e21adf0c1a79" upstream="kirkstone" />
 
 
   <!-- UPSTREAM COMPONENTS -->
