@@ -70,12 +70,12 @@
   <project name="AGL/meta-agl-refhw" path="bsp/meta-agl-refhw" />
 
   <!-- consolidate on meta-freescale from git.yoctoproject.org -->
-  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="f89933bbebc21506ab75be63fba9ffbaebed94da" upstream="kirkstone"/>
-  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="6d8213fc5ec192c33f963b8095d1f01af1574eea" upstream="kirkstone"/>
+  <project name="meta-freescale" path="bsp/meta-freescale" remote="yocto" revision="36f507dadadcec91cc1d25b65d9edd086f03c3b5" upstream="kirkstone"/>
+  <project name="Freescale/meta-freescale-3rdparty" path="bsp/meta-freescale-3rdparty" remote="github" revision="2c48a30847dc0f4a3a1505c462387578ea49065f" upstream="kirkstone"/>
 
   <!-- TI Vayu / Jacinto 6 / DRA7 -->
-  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="50b34c5cc9496441152ad28bf1022e5fc5ab0a7e" upstream="kirkstone"/>
-  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="2b11afa8aa19814264d1d7b97184ad5cb88ddfa0" upstream="kirkstone"/>
+  <project name="meta-arm" path="bsp/meta-arm" remote="yocto" revision="858c7553a85d60420f78d3240da2a38c30c90716" upstream="kirkstone"/>
+  <project name="meta-ti" path="bsp/meta-ti" remote="yocto" revision="574e833a9adf17a14484cae8b750b5cc36bc8d17" upstream="kirkstone"/>
 
   <!-- Raspberry Pi 4 -->
   <project name="meta-raspberrypi" path="bsp/meta-raspberrypi" remote="yocto" revision="dacad9302a92b0b7edf8546cdcad1f8ef753e462" upstream="kirkstone"/>
