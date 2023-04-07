@@ -84,4 +84,9 @@
   <project name="SanCloudLtd/meta-sancloud" path="bsp/meta-sancloud" remote="github" revision="7eb9a421f547e347c9da23463734758568e13f95" upstream="kirkstone"/>
   <project name="EmbeddedAndroid/meta-rtlwifi" path="bsp/meta-rtlwifi" remote="github" revision="032a394e7569d1254cd17a0358475b986e64a5a4" upstream="master"/>
 
+  <!-- University -->
+  
+  <!-- University Layer -->
+  <project name="C4rloS0t0/meta-University" path="meta-University" remote="github" revision="50276572b2df053aeb297fa71570c10be089abdb"/>
+  
 </manifest>
