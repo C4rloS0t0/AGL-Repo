@@ -32,6 +32,12 @@
   <project name="poky" path="external/poky" remote="yocto" revision="65dafea22018052fe7b2e17e6e4d7eb754224d38" upstream="kirkstone" />
   <project name="openembedded/meta-openembedded" path="external/meta-openembedded" remote="github" revision="1f31570d0795da90083d1dbf28127c90908e30ee" upstream="kirkstone" />
 
+  
+  <!-- University -->
+  
+  <!-- University Layer -->
+  <project name="C4rloS0t0/meta-University" path="meta-University" remote="github" revision="main"/>
+  
 
   <!-- UPSTREAM COMPONENTS -->
 
