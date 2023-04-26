@@ -87,6 +87,6 @@
   <!-- University -->
   
   <!-- University Layer -->
-  <project name="C4rloS0t0/meta-University" path="meta-University" remote="github" revision="university_o_14.94.0"/>
+  <project name="C4rloS0t0/meta-University" path="meta-University" remote="github" revision="main"/>
   
 </manifest>
